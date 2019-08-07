@@ -776,7 +776,10 @@ species_ecology <- function(data) {
   data_ecology <<- droplevels(data_ecology)
   
   sp_x_ecology <- sort(table(data_ecology$ecology), decreasing = T)
-  write.table(sp_x_ecology, file = "Output/sp_x_ecology.csv",
+  tab <- as.data.frame(sp_x_ecology)
+  names(tab) <- c("group", "records")
+  tab$perc <- 100 * tab$records / sum(tab$records)
+  write.table(tab, file = "Output/sp_x_ecology.csv",
     col.names = NA, row.names = T, sep = ";")
   
   sp_x_ecology <- sp_x_ecology[c(1, 4, 2:3, 5:18)]
@@ -805,17 +808,28 @@ lichen_substrata <- function(data) {
     lichen <- c(lichen, x)
   }
   lichen <- lichen[-grep(",", lichen)]
-  lichen <- trimws(lichen, which = c("both"))  
+  lichen <- trimws(lichen, which = c("both"))
+
+  #### needs to be corrected in main file
+  lichen[lichen == "corticole?"] <- "corticole"
+  ####
+
   tab <- sort(table(lichen), decreasing = T)
   unk <- which(names(tab) == "unknown")
-  tab <- tab[c(1:(unk - 1), (unk + 1):length(tab), unk)] 
-  col_lichen <- color(length(tab), start = 55)
+  tab <- tab[c(1:(unk - 1), (unk + 1):length(tab), unk)]
+  tab <- as.data.frame(tab)
+  names(tab) <- c("group", "records")
+  tab$perc <- 100 * tab$records / sum(tab$records)
+  write.table(tab, file = "Output/lichen_substrata.csv",
+    col.names = NA, row.names = T, sep = ";")
+  
+  col_lichen <- color(nrow(tab), start = 55)
   pdf("Output/lichen_substrata.pdf", h = 3, w = 6, pointsize = 14)
   par(mar = rep(2, 4), mfrow = c(1, 2))
-  pie(tab, labels = NA, col = col_lichen, border = "white")
+  pie(tab$records, labels = NA, col = col_lichen, border = "white")
   par(mar = rep(0, 4))
   plot(1, 1, type = "n", axes = F)
-  legend("left", legend = names(tab), bty = "n", fill = col_lichen, border = NA,
+  legend("left", legend = tab$group, bty = "n", fill = col_lichen, border = NA,
     y.intersp = 0.75)
   dev.off()  
 }

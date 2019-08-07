@@ -62,8 +62,8 @@ species_ecology(data)
 # output file: 'Output/sp_x_ecology.pdf' 
 
 lichen_substrata(data)
-# output file: 'Outputsp_x_coun/lichen_substrata.pdf' 
-
+# output file: 'Output/lichen_substrata.pdf' 
+# output file: 'Output/lichen_substrata.csv' 
 
 ### diversity analyses
 plot_rank_abundance(data, n_labels = 8)
@@ -103,6 +103,12 @@ type_specimens(data)
 
 ### number of species with incertae sedis taxa
 (is_taxa <- incertae_sedis_taxa(data))
+
+# number of records with incertae sedis order
+length(grep("incertae", data$order))
+
+# number of records with incertae sedis family
+length(grep("incertae", data$family))
 
 # number of Ascomycota species in dataset
 asco_spp <- unique(droplevels(data[data$division == "Ascomycota", "species"]))
