@@ -41,11 +41,6 @@ plot_map()
 # output file: 'Output/West_Africa_map.pdf' 
 
 
-### obtain proportion of species reported vs known
-sp_x_taxon <- proportion_known_spp()
-# output file: 'Output/sp_x_taxon.csv' 
-
-
 ### summary of studies' historical context
 plot_study_motivation(data_with_genera)
 # output file: 'Output/study_motivation_study.pdf' 
@@ -88,6 +83,11 @@ sp_x_country <- species_per_country(data)
 
 top_rich_genera(data, 15)
 # output file: 'Output/sp_x_genus.csv' 
+
+
+### obtain proportion of species reported vs known
+sp_x_taxon <- proportion_known_spp()
+# output file: 'Output/sp_x_taxon.csv' 
 
 
 ### comparison of species with GBIF data

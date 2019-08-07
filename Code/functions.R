@@ -117,26 +117,15 @@ plot_map <- function(data = data) {
 
 
 ### proportion of reported vs known --------------------------------------------
-proportion_known_spp <- function(file = "Data/knonw_spp_numbers.csv") {  
-  # known fungi per country
-  known_fungi <- rep(NA, length(unique(data$country)) + 1)
-  names(known_fungi) <- c(unique(data$country), "total")
-  known_fungi["total"] <- 4673
-  known_fungi["Benin"] <- 415
-  known_fungi["Burkina Faso"] <- 13
-  known_fungi["Gambia"] <- 117
-  known_fungi["Ghana"] <- 1530
-  known_fungi["Guinea"] <- 786
-  known_fungi["Guinea-Bissau"] <- 19
-  known_fungi["Ivory Coast"] <- 1125
-  known_fungi["Liberia"] <- 159
-  known_fungi["Mali"] <- 117
-  known_fungi["Niger"] <- 85
-  known_fungi["Nigeria"] <- 1325
-  known_fungi["Senegal"] <- 299
-  known_fungi["Sierra Leone"] <- 1618
-  known_fungi["Togo"] <- 543
-  
+proportion_known_spp <- function(file = "Data/known_spp_numbers.csv") {
+
+  # fungi per country
+  n <- table(data$country, data$species)
+  n[n > 0] <- 1
+  known_fungi <- rowSums(n)
+  known_fungi <- c(known_fungi, length(unique(data$species)))
+  names(known_fungi)[length(known_fungi)] <- "West Africa"
+
   # read data
   x <- read.csv(file, h = T, sep = ";")
   
@@ -153,16 +142,19 @@ proportion_known_spp <- function(file = "Data/knonw_spp_numbers.csv") {
   
   # use taxon names as rownames
   rownames(x) <- x$taxon
+
+  # calculate overall representation of species
+  x$species_perc <- 100 * x$species / x["Fungi and fungus-like", "species"]
   
   # add columns for each country
-  for(i in c(unique(data$country), "total")) {
+  for(i in names(known_fungi)) {
     i_perc <- paste0(i, "_perc")
     x[, i] <- rep(NA, nrow(x))
     x[, i_perc] <- rep(NA, nrow(x))
     
     # subset dataset per country
     data_sub <- droplevels(data[data$country == i, ])
-    if(i == "total") data_sub <- data
+    if(i == "West Africa") data_sub <- data
     
     # count species per taxon
     for(j in x$taxon) {      
@@ -204,9 +196,6 @@ proportion_known_spp <- function(file = "Data/knonw_spp_numbers.csv") {
     }    
     x[, i_perc] <- round((x[, i] * 100) / known_fungi[i], 2)
   }  
-  # add last row with totals
-  #row_total <- c("total", "", round(colSums(x[, 3:ncol(x)], na.rm = T), 0))
-  #x <- rbind(x, row_total)  
   write.table(x, file = "Output/sp_x_taxon.csv", sep = ";", col.names = T,
     row.names = F)
   
@@ -748,7 +737,7 @@ plot_records_per_time <- function(data) {
     c(sp_year$cummulative, 0), col = gray(0.75), border = NA)
   polygon(c(sp_year$year, sp_year$year[length(sp_year$year)]),
     c(sp_year$new_sp, 0), col = "#d35f5f", border = NA)
-  points(sp_year$species ~ sp_year$year, type = "h", col = gray(0.25))
+  points(sp_year$species ~ sp_year$year, type = "h", col = 1)
   axis(1, lwd = 0, lwd.tick = 1)
   axis(1, at = c(par("usr")[1], par("usr")[2]), lwd = 1, lwd.tick = 0,
     label = NA)
@@ -848,12 +837,14 @@ gbif_comparison <- function(data, file = "Data/GBIF_records.csv") {
   message(paste("Species in both", b))
   
   pdf("Output/GBIF_comparisons.pdf", w = 4, h = 3, pointsize = 14)
-  par(las = 1, mar = c(4, 4, 1, 8), xpd = T, 
-    tck = -0.025, mgp = c(3, 0.6, 0.6))
-  barplot(rbind(a, b, c), names.arg = "GBIF", col = c(gray(0.9), 1, gray(0.7)),
-    ylab = "n species", border = F)
-  legend("topright", legend = c("GBIF", "both", "checklist"), border = F,
-    fill = c(gray(0.7), 1, gray(0.9)), inset = c(-1.2, 0), bty = "n")
+  par(mar = rep(0, 4), mfrow = c(1, 2))
+  pie(c(a, b, c), col = c(gray(0.9), 1, gray(0.7)), border = F, labels = NA)
+  par(mar = rep(0, 4))
+  plot(1, 1, type = "n", axes = F)
+  #legend("left", legend = names(sp_x_ecology), bty = "n", fill = col_ecology,
+  #  border = NA, y.intersp = 0.75)
+  legend("topleft", legend = c("GBIF", "both", "checklist"), border = F,
+    fill = c(gray(0.7), 1, gray(0.9)), bty = "n", y.intersp = 0.75)
   dev.off()  
   gbif_species <- c(as.character(gbif_spp[gbif_spp %in% chckl_spp]),
     as.character(gbif_spp[!(gbif_spp %in% chckl_spp)]))
