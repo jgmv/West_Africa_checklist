@@ -36,14 +36,6 @@ length(unique(data$literature_reference))
 length(unique(data_with_genera$literature_reference))
 
 
-### plot map with colored countries
-plot_map()
-# output file: 'Output/West_Africa_map.pdf' 
-
-plot_map2(data)
-# output file: 'Output/West_Africa_map2.pdf' 
-
-
 ### summary of studies' historical context
 plot_study_motivation(data_with_genera)
 # output file: 'Output/study_motivation_study.pdf' 
@@ -119,6 +111,14 @@ length(asco_spp)
 
 # percentage of incertae sedis ascomycota species
 100 * is_taxa[1] / length(asco_spp)
+
+
+### plot map with colored countries
+plot_map()
+# output file: 'Output/West_Africa_map.pdf' 
+
+plot_richness_map(data)
+# output file: 'Output/West_Africa_map2.pdf' 
 
 
 ### end

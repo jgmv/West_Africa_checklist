@@ -117,16 +117,31 @@ plot_map <- function(data = data) {
 
 
 ### plot alternative map -------------------------------------------------------
-plot_map2 <- function(data) {  
-  require(maps)  
-  map_col <- c("#ffffd4","#fed98e","#fe9929","#d95f0e","#993404")  
-  #map_col <- sample(map_col, length(unique(data$country)), replace = T)
-  # plot map with countries
-  pdf("Output/West_Africa_map2.pdf", w = 8, h = 8, pointsize = 14)
-  map("world", unique(data$country), xlim = c(-18, 18), ylim = c(0, 25),
-    boundary = T, interior = T, fill = T, col = map_col, lty = 1, wrap = T)
-  dev.off()  
-}
+plot_richness_map <- function(data) {
+  require(ggplot2)
+  require(ggthemes)
+  require(rnaturalearth)
+  require(sf)
+
+  #theme_set(theme_bw())
+  theme_set(theme_map())
+
+  countries <- rownames(country)[2:nrow(country)]
+  countries[which(countries == "Guinea-Bissau")] <- "Guinea Bissau"
+  wa <- ne_countries(scale = "medium", returnclass = "sf",
+    country = countries)
+ 
+  # number of species per country
+  Species <- country$n_species[2:nrow(country)]
+  
+  # plot map with colored countries
+  ggplot(data = wa) + geom_sf(aes(fill = Species)) +
+    scale_fill_distiller(palette = "Greens", direction = 1,
+    na.value = "white") + theme(legend.text = element_text(size = 14),
+    legend.title = element_text(size = 14), legend.position = c(0.05, 0.675),
+    legend.direction = "vertical")
+  ggsave(paste0("Output/West_Africa_map_richness.pdf"), w = 9, h = 6)
+} 
 
 
 ### proportion of reported vs known --------------------------------------------
