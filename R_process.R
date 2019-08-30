@@ -40,6 +40,9 @@ length(unique(data_with_genera$literature_reference))
 plot_map()
 # output file: 'Output/West_Africa_map.pdf' 
 
+plot_map2(data)
+# output file: 'Output/West_Africa_map2.pdf' 
+
 
 ### summary of studies' historical context
 plot_study_motivation(data_with_genera)

@@ -116,6 +116,19 @@ plot_map <- function(data = data) {
 }
 
 
+### plot alternative map -------------------------------------------------------
+plot_map2 <- function(data) {  
+  require(maps)  
+  map_col <- c("#ffffd4","#fed98e","#fe9929","#d95f0e","#993404")  
+  #map_col <- sample(map_col, length(unique(data$country)), replace = T)
+  # plot map with countries
+  pdf("Output/West_Africa_map2.pdf", w = 8, h = 8, pointsize = 14)
+  map("world", unique(data$country), xlim = c(-18, 18), ylim = c(0, 25),
+    boundary = T, interior = T, fill = T, col = map_col, lty = 1, wrap = T)
+  dev.off()  
+}
+
+
 ### proportion of reported vs known --------------------------------------------
 proportion_known_spp <- function(file = "Data/known_spp_numbers.csv") {
 
