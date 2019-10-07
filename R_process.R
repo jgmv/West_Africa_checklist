@@ -66,6 +66,7 @@ plot_rank_abundance(data, n_labels = 8)
 
 country <- diversity_per_country(data)
 # output files: 'Output/country_summary.csv',
+#  'Output/sp_x_ref.pdf' 
 #  'Output/estimations_vs_known.pdf' 
 
 plot_accumulation_curves(data)
@@ -106,7 +107,7 @@ length(grep("incertae", data$order))
 length(grep("incertae", data$family))
 
 # number of Ascomycota species in dataset
-asco_spp <- unique(droplevels(data[data$division == "Ascomycota", "species"]))
+asco_spp <- unique(data[data$division == "Ascomycota", "species"])
 length(asco_spp)
 
 # percentage of incertae sedis ascomycota species
@@ -119,6 +120,11 @@ plot_map()
 
 plot_richness_map(data)
 # output file: 'Output/West_Africa_map2.pdf' 
+
+
+### species turnover with distance (Mantel correlogram)
+mantel_correlogram(data, country)
+# output file: 'Output/mantel_correlogram.pdf' 
 
 
 ### end

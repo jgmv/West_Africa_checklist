@@ -8,7 +8,7 @@
 "Acanthostoma reflexum";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Acarocybe deightonii";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Acaulospora bireticulata";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
-"Acaulospora capsicula ";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+"Acaulospora capsicula";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Acaulospora cavernata";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Acaulospora colombiana";1;0;0;0;0;0;1;0;0;0;0;0;0;0;2
 "Acaulospora colossica";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
@@ -29,7 +29,7 @@
 "Acaulospora scrobiculata";1;0;0;0;0;0;1;0;0;0;0;0;0;0;2
 "Acaulospora spinosa";1;0;0;0;0;0;0;0;0;0;1;0;0;0;2
 "Acaulospora spinosissima";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
-"Acaulospora tuberculata ";1;0;0;0;0;0;1;0;0;0;0;0;0;0;2
+"Acaulospora tuberculata";1;0;0;0;0;0;1;0;0;0;0;0;0;0;2
 "Achrotelium urerae";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Acremoniella atra";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Acremoniula sarcinellae";0;0;0;0;1;0;0;0;1;0;0;1;1;0;4
@@ -187,12 +187,13 @@
 "Amanita craseoderma";1;0;0;0;0;0;1;0;0;0;0;0;0;0;2
 "Amanita crassiconus";1;0;0;0;1;0;1;0;0;0;1;1;0;1;6
 "Amanita fulvopulverulenta";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
+"Amanita griseofloccosa";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Amanita hemibapha";0;1;0;0;0;0;0;0;0;0;0;1;0;0;2
 "Amanita lanosa";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Amanita lanosula";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Amanita loosii";1;0;0;0;0;0;0;0;0;0;0;0;0;1;2
 "Amanita masasiensis";1;1;0;0;0;0;1;0;0;0;0;0;0;1;4
-"Amanita phalloides ";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
+"Amanita phalloides";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Amanita pulverulenta";0;0;0;0;1;0;0;0;0;0;0;0;0;1;2
 "Amanita rubescens";1;0;0;0;1;0;0;0;0;0;0;1;0;1;4
 "Amanita strobilaceovolvata";1;0;0;1;0;0;1;0;0;0;0;0;0;1;4
@@ -261,7 +262,7 @@
 "Anthracocystis rhytachnes";0;0;0;0;0;0;0;0;0;0;1;1;1;0;3
 "Anthracocystis rhytachnes-rottboellioidis";0;0;0;0;0;0;0;1;0;0;0;0;0;1;2
 "Anthracocystis tothii";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Anthracoidea heterospora ";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
+"Anthracoidea heterospora";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Anthracothecium cinerosum";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Anthracothecium guineense";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Antrodia calceus ";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
@@ -323,7 +324,6 @@
 "Aschersonia coffeae";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Aschersonia crenulata";0;0;0;1;0;0;0;0;0;0;0;1;1;0;3
 "Aschersonia flavescens";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
-"Aschersonia flavescens ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Aschersonia hypocreoidea";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
 "Aschersonia napoleonae";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Aschersonia zenkeri";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
@@ -378,7 +378,7 @@
 "Aspergillus proliferans";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Aspergillus quadrilineatus";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Aspergillus rambelli";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
-"Aspergillus reptans ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Aspergillus reptans";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Aspergillus ruber";0;0;0;1;0;0;1;0;0;0;0;0;0;0;2
 "Aspergillus sclerotiorum";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Aspergillus silvaticus";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
@@ -388,7 +388,7 @@
 "Aspergillus tamarii";0;0;1;1;0;0;0;0;0;0;1;0;0;0;3
 "Aspergillus terreus";0;0;0;1;0;0;1;0;0;0;1;0;0;0;3
 "Aspergillus terricola";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
-"Aspergillus togoensis ";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
+"Aspergillus togoensis";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Aspergillus ustus";1;0;0;1;0;0;0;0;1;0;0;0;0;1;4
 "Aspergillus versicolor";0;0;1;1;0;0;1;0;0;0;1;0;1;0;5
 "Aspergillus violaceobrunneus";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
@@ -405,11 +405,11 @@
 "Asteridiella capparis";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Asteridiella combreti";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
 "Asteridiella cordiae";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Asteridiella cyclopoda ";0;0;0;1;1;0;0;0;0;0;0;0;1;0;3
+"Asteridiella cyclopoda";0;0;0;1;1;0;0;0;0;0;0;0;1;0;3
 "Asteridiella deightonii";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Asteridiella diospyricola";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Asteridiella ekebergiae ";0;0;0;1;0;0;1;0;0;0;0;0;1;0;3
-"Asteridiella entebbeensis ";0;0;0;1;0;0;1;0;0;0;0;0;1;0;3
+"Asteridiella entebbeensis";0;0;0;1;0;0;1;0;0;0;0;0;1;0;3
 "Asteridiella fici";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Asteridiella glabra";0;0;0;1;0;0;1;0;0;0;0;0;1;0;3
 "Asteridiella hansfordii";0;0;0;1;1;0;0;0;0;0;0;0;1;0;3
@@ -589,8 +589,7 @@
 "Bispora betulina";0;0;0;0;0;0;0;1;0;0;0;0;0;0;1
 "Bisporella citrina";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Bitunicostilbe clavata";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
-"Bjerkandera adusta";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Bjerkandera adusta ";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
+"Bjerkandera adusta";0;0;0;0;0;0;0;0;0;0;0;0;1;1;2
 "Bjerkandera fumosa";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Blakeslea trispora";0;0;0;0;0;0;0;0;1;0;0;1;0;0;2
 "Boeremia exigua";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
@@ -600,7 +599,6 @@
 "Boletellus lepidospora";0;0;0;1;1;0;0;0;0;0;0;0;0;0;2
 "Boletellus linderi";0;0;0;0;0;0;1;1;0;0;0;0;0;1;3
 "Boletellus longipes";0;0;0;1;0;0;1;0;0;0;0;0;0;1;3
-"Boletus bicolor";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Boletus loosii";1;0;0;0;0;0;1;0;0;0;0;0;0;1;3
 "Boletus loricaceus";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Boletus njalaensis";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
@@ -611,7 +609,6 @@
 "Bombyliospora thoroldi";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Bombyliospora togoensis";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Bordea castellinii";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Bothia castanella";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Botryodiplodia caricae";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Botryodiplodia manilensis";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Botryodiplodia palmarum";0;0;0;1;0;0;0;0;0;0;1;0;0;0;2
@@ -628,7 +625,6 @@
 "Bovista amethystina";0;0;0;0;0;0;0;0;0;1;0;0;0;0;1
 "Bovista pusilla";0;0;0;1;0;0;0;0;1;0;1;0;0;1;4
 "Brachysporiella gayana";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
-"Brachysporium sp. ";0;0;0;1;0;0;0;0;0;0;1;0;0;0;2
 "Brasilicia dimerelloides";0;0;0;0;1;0;1;0;0;0;0;0;0;0;2
 "Brasilicia foliicola";0;0;0;0;1;0;1;0;0;0;0;0;0;0;2
 "Brevistachys subsimplex";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
@@ -760,7 +756,7 @@
 "Cercospora erythrinicola";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Cercospora ficina";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Cercospora fukushiana";0;0;0;0;0;0;0;0;0;0;1;1;1;1;4
-"Cercospora furfurella ";0;0;0;1;0;0;0;0;0;0;0;0;0;1;2
+"Cercospora furfurella";0;0;0;1;0;0;0;0;0;0;0;0;0;1;2
 "Cercospora gerberae";0;0;0;1;0;0;0;0;0;0;1;0;1;0;3
 "Cercospora gossypii";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Cercospora grandissima";0;0;0;0;0;0;0;0;0;0;1;1;1;0;3
@@ -870,7 +866,7 @@
 "Chitonomyces benjaminii";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Chitonomyces hydrocanthi";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Chlorophyllum globosum";1;0;0;0;0;0;0;0;0;0;1;0;0;0;2
-"Chlorophyllum molybdites ";1;1;0;1;0;0;1;0;0;0;1;1;1;1;8
+"Chlorophyllum molybdites";1;1;0;1;0;0;1;0;0;0;1;1;1;1;8
 "Chlorophyllum palaeotropicum";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Chlorophyllum rachodes";1;1;0;0;0;0;0;0;0;0;0;0;1;0;3
 "Choanephora cucurbitarum";0;0;0;1;0;0;1;1;0;0;1;0;1;0;5
@@ -899,7 +895,7 @@
 "Circinella spinosa";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Circinotrichum falcatisporum";0;0;0;1;0;0;0;0;0;0;1;0;0;0;2
 "Circinotrichum flagelliforme";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
-"Circinotrichum maculiforme ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Circinotrichum maculiforme";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Circinotrichum olivaceum";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
 "Cirsosia flabellariae";0;0;0;0;0;0;0;0;0;0;0;0;1;1;2
 "Cirsosia hughesii";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
@@ -935,11 +931,9 @@
 "Claviceps sorghi";0;0;0;1;0;0;0;0;0;0;1;0;1;0;3
 "Claviradulomyces dabeicola";0;0;0;1;0;0;1;0;0;0;0;0;0;0;2
 "Clavulina cartilaginea";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
-"Clavulina castaneipes";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Clitocybe gibba";0;0;0;1;0;0;0;0;0;0;0;0;0;1;2
 "Clitocybe hydrophora";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Clitocybe rivulosa";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
-"Clitocybe rivulosa ";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Clitopilus orientalis";0;0;0;0;0;0;0;0;0;1;0;0;0;0;1
 "Clitopilus peri";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Clitopilus togoensis";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
@@ -1024,7 +1018,7 @@
 "Coltricia perennis";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Coltricia pyrophila ";0;0;0;0;0;0;0;0;0;0;1;0;1;0;2
 "Colus hirudinosus";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
-"Colus pusillus ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Colus pusillus";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Colus subpusillus";0;0;0;1;0;0;0;0;0;0;1;0;0;0;2
 "Comatricha laxa";0;0;1;0;0;0;0;0;0;0;0;0;0;0;1
 "Comatricha nigra";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
@@ -1051,7 +1045,7 @@
 "Coprinellus domesticus";0;0;0;1;0;0;0;0;0;0;0;1;0;0;2
 "Coprinellus ephemerus";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Coprinellus micaceus";0;0;0;1;0;0;0;0;0;0;1;0;0;0;2
-"Coprinellus truncorum ";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
+"Coprinellus truncorum";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
 "Coprinopsis acuminata";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Coprinopsis africana";0;1;0;0;0;0;1;0;0;0;1;0;0;0;3
 "Coprinopsis atramentaria";0;0;0;0;0;0;0;0;0;0;1;0;1;0;2
@@ -1078,7 +1072,7 @@
 "Coriolopsis luteo-olivacea";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Coriolopsis occidentalis";0;0;0;1;0;0;0;0;0;0;1;0;1;1;4
 "Coriolus expansus";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
-"Coriolus fischeri P. Henn. f. subresupinata";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
+"Coriolus fischeri f. subresupinata";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Coriolus lutescens";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
 "Corticium koleroga";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Cortinarius talus";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
@@ -1098,7 +1092,7 @@
 "Corynespora vismiae";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Coryneum psidii";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Cosmospora arxii";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
-"Cosmospora flammea ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Cosmospora flammea";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Craspedodidymum abigianense";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Craterellus beninensis";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Craterellus cornucopioides";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
@@ -1173,7 +1167,7 @@
 "Cyathia intermedia";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Cyathia poeppigii";0;0;0;1;0;0;0;0;0;0;0;0;1;1;3
 "Cyathus crispus";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
-"Cyathus limbatus ";1;0;0;1;0;0;0;0;0;0;1;0;1;0;4
+"Cyathus limbatus";1;0;0;1;0;0;0;0;0;0;1;0;1;0;4
 "Cyathus striatus";1;0;0;0;0;0;0;0;0;0;1;0;0;0;2
 "Cyberlindnera subsufficiens";0;0;0;0;0;0;0;1;0;0;0;0;0;0;1
 "Cyclographina pervarians";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
@@ -1183,11 +1177,11 @@
 "Cylindrocephalum stellatum";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Cylindrosporium kilimandscharicum";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Cymatoderma africanum";0;0;0;0;0;0;1;0;0;0;1;0;0;0;2
-"Cymatoderma caperatum ";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
+"Cymatoderma caperatum";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Cymatoderma dendriticum";0;0;0;1;1;0;0;0;0;0;1;0;1;0;4
 "Cymatoderma elegans";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Cyphella fulvodisca";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
-"Cystangium capitis-orae ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Cystangium capitis-orae";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Cystoderma carcharias";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Cystolepiota luteohemisphaerica";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Cytosphaera mangiferae";0;0;0;0;1;0;0;0;0;0;0;0;1;0;2
@@ -1252,7 +1246,7 @@
 "Dictyochaetopsis gonytrichodes";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Dictyochaetopsis intermedia";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Dictyocheirospora heptaspora";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
-"Dictyonella scabra ";0;0;0;1;0;0;0;0;0;1;0;1;0;0;3
+"Dictyonella scabra";0;0;0;1;0;0;0;0;0;1;0;1;0;0;3
 "Dictyonia lophirae";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Dictyophora duplicata";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Dictyophora phalloidea";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
@@ -1290,6 +1284,8 @@
 "Dimeromyces sierrae-leonis";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Dimerosporiella cephalosporii";0;0;0;1;0;0;0;0;0;0;0;0;0;1;2
 "Dimidiographa longissima";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+"Dimorphomyces diastaticus";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
+"Dimorphomyces pleomorphis";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Dinemasporium aberrans";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Dinemasporium asetulum";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Dinemasporium bicristatum";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
@@ -1321,7 +1317,7 @@
 "Dirinaria palmarum";0;0;0;0;0;0;1;0;0;0;1;0;0;0;2
 "Dirinaria picta";0;0;1;0;1;0;1;0;0;0;0;0;1;0;4
 "Dirinaria singularis";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
-"Discella cacaoicola ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Discella cacaoicola";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Disciseda minima";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Distocercospora pachyderma";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Distocercosporaster dioscoreae";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
@@ -1407,7 +1403,6 @@
 "Enterobryus peridontopygei";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Enterobryus tuzetae";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Entoloma afrum";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
-"Entoloma afrum ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Entoloma alboroseum";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Entoloma angustisporum";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Entoloma applanatum";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
@@ -1491,7 +1486,7 @@
 "Erythricium salmonicolor";0;0;0;0;1;0;1;1;0;0;1;0;1;0;5
 "Eudarluca australis";0;0;0;1;1;0;0;0;0;0;1;0;0;1;4
 "Eugeniella micrommata";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
-"Eumitria baileyi";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
+"Eumitria baileyi";0;0;0;0;1;0;1;0;0;0;0;0;0;0;2
 "Eutypa erumpens";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Eutypa microspora";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Eutypella citricola";0;0;0;1;0;0;1;0;0;0;0;0;1;0;3
@@ -1612,12 +1607,12 @@
 "Fusarium sporotrichioides";1;0;0;0;0;0;1;0;0;0;0;0;0;0;2
 "Fusarium tasmanicum ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Fusarium theobromae";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Fusarium xylarioides ";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
+"Fusarium xylarioides";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Fuscoporia discipes ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Fuscoporia ferruginosa";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Fuscoporia senex";1;0;0;1;0;0;0;0;1;0;0;0;0;1;4
 "Fuscoporia wahlbergii";0;0;0;1;0;0;0;0;0;0;0;0;0;1;2
-"Fuscutata heterogama ";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+"Fuscutata heterogama";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Fusicladium butyrospermi";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Fusicolla merismoides";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Gaeumannomyces graminis";0;0;0;0;0;0;1;0;0;0;1;0;1;0;3
@@ -1671,8 +1666,7 @@
 "Gigaspora alboaurantiaca";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Gigaspora decipiens";1;0;0;0;0;0;0;0;0;0;1;0;0;0;2
 "Gigaspora gigantea";1;0;0;0;0;0;1;0;0;0;1;0;0;0;3
-"Gigaspora margarita ";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
-"Gigaspora sp. ";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
+"Gigaspora margarita";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Gliocladiopsis tenuis";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Gliomastix luzulae";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
 "Gliomastix musicola";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
@@ -1692,7 +1686,7 @@
 "Glomerella cingulata f.sp. manihotis";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Glomerella manihotis";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Glomerella psidii";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
-"Glomus ambisporum ";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+"Glomus ambisporum";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Glomus aureum";1;0;0;0;0;0;1;0;0;0;0;0;0;0;2
 "Glomus brohultii";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Glomus clavisporum";1;0;0;0;0;0;1;0;0;0;1;0;0;0;3
@@ -1700,7 +1694,7 @@
 "Glomus coremioides";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Glomus deserticola";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Glomus fragile";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
-"Glomus glomerulatum ";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
+"Glomus glomerulatum";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Glomus hoi";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Glomus hyderabadensis";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Glomus macrocarpum";1;0;0;0;0;0;0;0;0;0;1;0;0;0;2
@@ -1762,7 +1756,7 @@
 "Gymnoascus johnstonii";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Gymnopilus aculeatus";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Gymnopilus njalaensis";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Gymnopilus penetrans ";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
+"Gymnopilus penetrans";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Gymnopilus purpuratus";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Gymnopilus purpureosquamulosus";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Gymnopilus sapineus";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
@@ -1852,11 +1846,10 @@
 "Hemigrapha tenellula";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Hemileia aureospora";0;0;0;1;0;0;1;0;0;0;0;0;0;0;2
 "Hemileia buntingii";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
-"Hemileia buntingii ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Hemileia canthii";0;0;0;1;0;0;0;0;0;0;1;0;0;0;2
 "Hemileia chlorocodonis";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Hemileia deightonii";0;0;0;1;0;0;1;0;0;0;1;0;1;0;4
-"Hemileia dioscoreae-aculeatae ";0;0;0;1;0;0;1;0;0;0;0;0;0;0;2
+"Hemileia dioscoreae-aculeatae";0;0;0;1;0;0;1;0;0;0;0;0;0;0;2
 "Hemileia fadogiae";0;0;0;0;1;0;0;0;0;0;1;0;0;0;2
 "Hemileia harunganae";0;0;0;0;1;0;1;0;0;0;0;0;0;0;2
 "Hemileia kumasensis";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
@@ -1897,7 +1890,7 @@
 "Hexagonia cucullata";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Hexagonia cyclospora f. major";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
 "Hexagonia discopoda";0;0;0;0;1;0;0;0;0;1;1;0;1;0;4
-"Hexagonia hydnoides ";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
+"Hexagonia hydnoides";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Hexagonia klotzschii";0;0;0;0;1;0;0;0;1;0;1;0;0;0;3
 "Hexagonia orbiculata";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Hexagonia pobeguini";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
@@ -1928,7 +1921,7 @@
 "Huntiella moniliformis";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Hyaloderma evansii";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
 "Hyalopus anoma";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
-"Hyalosphaera pulchella ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Hyalosphaera pulchella";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Hydea pygmea";0;0;0;0;0;0;0;1;0;0;0;0;0;0;1
 "Hydnum lateritium";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Hydnum proliferum";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
@@ -1961,10 +1954,10 @@
 "Hypholoma talbotiae";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Hypocrella africana";0;0;0;0;0;0;0;1;0;0;0;0;0;0;1
 "Hypocrella sphaeroidea";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Hypocrella vilis ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Hypocrella vilis";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Hypocreopsis macrostoma";0;0;1;0;0;0;0;0;0;0;1;0;0;0;2
 "Hypoxylon anthochroum";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Hypoxylon asperatum ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Hypoxylon asperatum";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Hypoxylon buettneri";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Hypoxylon haematostroma";0;0;0;0;1;0;0;0;0;0;0;0;1;0;2
 "Hypoxylon lophirae";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
@@ -2064,7 +2057,7 @@
 "Kweilingia divina";0;0;0;0;0;0;1;0;0;0;1;0;0;0;2
 "Kylindria keitae";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Laboulbenia afra";0;0;0;0;0;1;0;0;0;0;0;0;0;0;1
-"Laboulbenia afrogyri ";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
+"Laboulbenia afrogyri";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Laboulbenia anoplogenii";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Laboulbenia axinotomae";0;0;0;0;0;1;0;0;0;0;0;0;0;0;1
 "Laboulbenia balazucii";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
@@ -2130,7 +2123,7 @@
 "Lactarius griseogalus";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Lactarius hispidulus";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Lactarius kabansus";1;0;0;0;0;0;0;0;0;0;0;0;0;1;2
-"Lactarius lignyotus ";0;0;0;1;0;0;0;0;0;0;0;0;0;1;2
+"Lactarius lignyotus";0;0;0;1;0;0;0;0;0;0;0;0;0;1;2
 "Lactarius melanogalus";1;0;0;1;1;0;1;0;0;0;0;1;0;1;6
 "Lactarius miniatescens";1;1;0;0;0;0;0;0;0;0;0;0;0;1;3
 "Lactarius pseudolignyotus";0;0;0;0;0;0;1;0;0;0;0;0;0;1;2
@@ -2142,7 +2135,7 @@
 "Lactarius tenellus";1;0;0;0;0;0;1;0;0;0;0;0;0;1;3
 "Lactarius trivialis";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Lactarius zenkeri";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
-"Lactifluus acrissimus ";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
+"Lactifluus acrissimus";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Lactifluus albomembranaceus";0;1;0;0;0;0;0;0;0;0;0;0;0;1;2
 "Lactifluus annulatoangustifolius";0;0;0;0;1;0;0;1;0;0;0;1;0;1;4
 "Lactifluus annulatolongisporus";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
@@ -2218,7 +2211,6 @@
 "Lecidea rubina";0;0;0;0;0;0;0;0;0;0;1;0;1;0;2
 "Lecidea tenuis";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Leiosphaerella leonensis";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Leiotrametes flavida";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Leiotrametes menziesii";0;0;0;1;0;0;0;0;0;0;1;0;0;0;2
 "Lembosia anogeissi";0;0;0;1;0;0;1;0;0;0;0;0;0;1;3
 "Lembosia carpodini";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
@@ -2321,7 +2313,7 @@
 "Lycogala exiguum";0;0;0;0;0;0;0;0;0;0;1;0;1;0;2
 "Lycogalopsis solmsii";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Lycoperdon ashantiense";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
-"Lycoperdon endotephrum ";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+"Lycoperdon endotephrum";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Lycoperdon excipuliforme";0;0;0;1;0;0;0;0;0;0;1;0;0;0;2
 "Lycoperdon hiemale";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Lycoperdon longicaudum";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
@@ -2401,7 +2393,7 @@
 "Marasmius heinemannianus";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Marasmius jodocodos";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Marasmius katangensis";1;0;0;0;0;0;0;0;0;0;1;0;0;0;2
-"Marasmius leveilleanus ";0;0;0;1;0;0;1;0;0;0;1;0;0;0;3
+"Marasmius leveilleanus";0;0;0;1;0;0;1;0;0;0;1;0;0;0;3
 "Marasmius lilacinoalbus";1;0;0;1;0;0;0;0;0;0;1;0;0;1;4
 "Marasmius linderi";0;0;0;0;0;0;0;1;0;0;0;0;0;0;1
 "Marasmius lolema";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
@@ -2473,9 +2465,7 @@
 "Melanospora pampeana";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Melanospora zamiae";0;1;0;1;0;0;0;0;0;0;0;0;0;0;2
 "Melanotheca nigeriensis";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
-"Melasmia sp. ";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
 "Meliola achyrospermi";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Meliola achyrospermi ";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Meliola aethiops";0;0;0;0;1;0;0;0;0;0;0;0;1;0;2
 "Meliola africana";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Meliola albiziae";0;0;0;1;1;0;0;0;0;0;0;0;1;0;3
@@ -2619,13 +2609,11 @@
 "Meliola pericampyli";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Meliola perpusilla";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Meliola phyllanthicola";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Meliola phyllanthicola ";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Meliola physostigmatis";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Meliola piperina";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Meliola piptadeniae";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Meliola platysepali";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
 "Meliola pleioceratis";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
-"Meliola pleioceratis ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Meliola plumbaginis";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
 "Meliola pseudospondiadis";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
 "Meliola psychotriae";0;0;0;1;0;0;0;0;0;0;0;0;1;1;3
@@ -2713,18 +2701,15 @@
 "Micropeltis congoensis";0;0;0;1;0;0;0;0;0;0;0;0;0;1;2
 "Micropeltis depressa";0;0;0;1;0;0;0;0;0;0;0;0;0;1;2
 "Micropeltis ugandae";0;0;0;1;1;0;0;0;0;0;0;0;0;0;2
-"Microporellus ellipsosporus";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Microporellus ellipsosporus ";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
+"Microporellus ellipsosporus";0;0;0;0;0;0;0;0;0;0;0;1;1;0;2
 "Microporellus obovatus";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Microporus affinis";0;0;0;0;0;0;0;0;0;0;1;0;0;1;2
 "Microporus concinnus";0;0;0;0;0;0;0;0;0;0;1;0;1;0;2
 "Microporus incomptus";0;0;0;0;0;0;0;0;0;0;1;0;1;0;2
-"Microporus sp. ";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Microporus xanthopus";1;0;0;1;1;0;0;0;0;0;1;0;1;1;6
 "Micropsalliota brunneosperma";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Micropsalliota campestroides";0;0;0;0;0;0;0;0;0;0;0;1;0;1;2
 "Micropsalliota elata";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
-"Micropsalliota elata ";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
 "Micropsalliota endophaea";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
 "Microsphaeropsis glumarum";0;0;0;0;0;0;1;0;0;0;1;0;1;0;3
 "Microsporum audouinii";0;0;0;0;0;0;0;0;1;0;1;0;0;0;2
@@ -2936,7 +2921,7 @@
 "Palawania cocoes";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Panaeolina foenisecii";0;0;0;0;0;0;0;0;0;0;1;0;1;0;2
 "Panaeolus bisporus";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
-"Panaeolus cyanescens ";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
+"Panaeolus cyanescens";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Panaeolus fimicola";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Panaeolus semiovatus";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Panus caespiticola";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
@@ -3076,7 +3061,6 @@
 "Penicillium javanicum";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Penicillium lagena";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Penicillium lapidosum";0;0;0;0;0;0;1;0;0;0;1;0;0;0;2
-"Penicillium mutant";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Penicillium oxalicum";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Penicillium roseopurpureum";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Penicillium solitum";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
@@ -3142,7 +3126,7 @@
 "Pestalotiopsis palmarum";1;0;0;1;0;0;1;1;0;0;1;0;1;0;6
 "Pestalotiopsis papposa";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
 "Pestalotiopsis psidii";0;0;0;0;1;0;1;0;0;0;1;0;0;0;3
-"Pestalotiopsis versicolor ";0;0;1;1;1;0;1;0;0;0;0;0;1;0;5
+"Pestalotiopsis versicolor";0;0;1;1;1;0;1;0;0;0;0;0;1;0;5
 "Peyritschiella princeps";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Peyritschiella xyricola";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Peyronellaea arachidicola";0;0;0;1;1;0;0;0;0;0;0;0;0;0;2
@@ -3284,7 +3268,7 @@
 "Phylloporia spathulata ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Phylloporus ampliporus";0;0;0;0;0;0;1;0;0;0;0;0;0;1;2
 "Phylloporus rhodophaeus";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
-"Phylloporus rhodoxanthus";0;0;0;0;1;0;0;0;0;0;0;0;0;1;2
+"Phylloporus rhodoxanthus";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Phyllopsora buettneri";0;0;0;1;0;0;0;0;0;0;1;0;0;1;3
 "Phyllosticta batatas";0;0;0;1;1;0;1;0;0;0;0;0;1;0;4
 "Phyllosticta bougainvilleae";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
@@ -3367,7 +3351,7 @@
 "Pilidium lythri";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Pilocratera afzelii";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Pirozynskiella solaninum";0;0;0;1;1;0;0;0;0;0;0;0;1;0;3
-"Pisolithus albus ";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
+"Pisolithus albus";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
 "Pisolithus arhizus ";0;1;0;1;0;0;0;1;0;0;0;1;0;1;5
 "Pisolithus strobus";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
 "Pithomyces africanus";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
@@ -3400,7 +3384,7 @@
 "Pluteus subcervinus";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Pneumocystis carinii";0;0;1;0;0;0;0;0;0;0;1;0;0;0;2
 "Podaxis axatus";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
-"Podaxis carcinomalis ";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
+"Podaxis carcinomalis";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
 "Podaxis chevalieri";0;0;0;0;0;0;0;0;1;0;0;0;0;0;1
 "Podaxis pistillaris";1;1;0;1;0;0;0;0;0;1;1;1;0;1;7
 "Podoconis anacardii";0;0;0;1;0;0;0;0;0;0;1;0;1;0;3
@@ -3422,7 +3406,6 @@
 "Podospora setosa";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Podosporium deightonii";0;0;0;1;1;0;0;0;0;0;0;0;1;1;4
 "Podosporium glabroides";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
-"Podosporium sp. ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Polyblastidium appendiculatum";0;0;0;0;0;0;1;0;0;0;0;0;1;0;2
 "Polyblastidium hypoleucum";0;0;0;0;1;0;0;0;0;0;0;0;1;0;2
 "Polyblastidium japonicum";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
@@ -3505,7 +3488,7 @@
 "Protubera clathroidea";0;0;0;0;0;0;0;0;0;0;1;0;0;1;2
 "Psathyrella atroumbonata";0;0;0;0;0;0;0;0;0;0;1;1;1;0;3
 "Psathyrella barrowsii";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
-"Psathyrella nigeriensis ";0;0;0;0;0;0;0;0;0;0;1;0;1;0;2
+"Psathyrella nigeriensis";0;0;0;0;0;0;0;0;0;0;1;0;1;0;2
 "Psathyrella pygmaea";0;0;0;1;0;0;0;0;0;0;1;0;0;0;2
 "Psathyrella tuberculata";1;1;0;0;0;0;1;0;0;0;1;1;1;1;7
 "Pseudoacrodictys appendiculata";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
@@ -3642,7 +3625,7 @@
 "Pseudorobillarda setariae";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Pseudothis pterocarpi";0;0;0;1;1;0;0;0;0;0;0;0;0;0;2
 "Psilocybe albobrunnea";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Psilocybe citrina ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Psilocybe citrina";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Psilocybe togoensis";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Psiloglonium compactum";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Psoroglaena perminuta";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
@@ -3736,9 +3719,9 @@
 "Puccinia romagnoliana";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Puccinia rottboelliae";0;0;0;1;1;0;1;0;0;0;0;0;1;0;4
 "Puccinia ruelliae";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
-"Puccinia rufipes ";0;0;0;1;1;0;1;0;0;0;1;0;1;0;5
+"Puccinia rufipes";0;0;0;1;1;0;1;0;0;0;1;0;1;0;5
 "Puccinia scleriae";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Puccinia setariae ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Puccinia setariae";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Puccinia sorghi";0;0;0;1;0;0;1;0;0;0;1;0;1;0;4
 "Puccinia stenotaphricola";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Puccinia stylosanthis";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
@@ -3750,7 +3733,7 @@
 "Puccinia versicolor";0;0;0;1;1;0;1;0;0;1;1;0;1;0;6
 "Puccinia virectae";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Puccinia zorniae";0;0;0;0;0;0;1;0;0;0;1;1;1;0;4
-"Pucciniosira anthocleistae ";0;0;0;0;0;0;1;0;0;0;1;0;1;0;3
+"Pucciniosira anthocleistae";0;0;0;0;0;0;1;0;0;0;1;0;1;0;3
 "Pucciniosira deightonii";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Pucciniosira dissotidis";0;0;0;0;1;0;0;0;0;0;1;0;0;0;2
 "Pucciniosira mitragynae";0;0;0;1;1;0;0;0;0;0;1;0;1;0;4
@@ -3847,6 +3830,7 @@
 "Repetophragma inflatum";0;0;0;0;1;0;0;0;0;0;0;0;1;0;2
 "Repetophragma terminaliae";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Resinicium bicolor";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Retiboletus griseus";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Retiboletus nigerrimus";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Reticularia lycoperdon";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Rhabdospora avicenniae";0;0;0;0;0;0;0;1;0;0;0;0;0;0;1
@@ -3872,7 +3856,7 @@
 "Rhizophagus intraradices";1;0;1;0;0;0;1;0;0;0;0;1;0;0;4
 "Rhizophagus irregularis";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Rhizophagus manihotis";1;0;0;0;0;0;1;0;0;0;0;0;0;0;2
-"Rhizopogon luteolus ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Rhizopogon luteolus";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Rhizopus arrhizus";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Rhizopus stolonifer";1;0;0;1;0;0;1;0;0;0;1;0;1;0;5
 "Rhodocollybia butyracea";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
@@ -3880,7 +3864,7 @@
 "Rhodophyllus aripoanus var. africus";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Rhodotarzetta rosea";0;0;0;0;0;0;0;0;0;0;1;1;0;0;2
 "Rhodotorula rubra";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
-"Rhopalostroma angolense ";0;0;0;1;0;0;1;0;0;0;1;0;1;0;4
+"Rhopalostroma angolense";0;0;0;1;0;0;1;0;0;0;1;0;1;0;4
 "Rhopographina palmarum";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Rhytidenglerula minima";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
 "Rhytidhysteron rufulum";0;0;0;1;1;0;1;0;0;0;0;0;1;0;4
@@ -3911,7 +3895,6 @@
 "Russula cellulata var. nigra";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Russula ciliata";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Russula coffeata";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
-"Russula compacta";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Russula compressa";1;0;0;0;0;0;0;0;0;0;0;0;0;1;2
 "Russula congoana";1;1;0;0;1;0;1;0;0;0;0;1;0;1;6
 "Russula diffusa";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
@@ -4005,16 +3988,15 @@
 "Scolecostigmina palmivora";0;0;0;1;1;0;0;0;0;0;0;0;1;0;3
 "Scopulariopsis ivorensis";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Scopulariopsis parva";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
-"Scorias brasiliensis ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Scorias brasiliensis";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Scutellospora aurigloba";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Scutellospora calospora";1;0;0;0;0;0;0;0;0;0;1;0;0;0;2
 "Scutellospora coralloidea";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Scutellospora fulgida";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
-"Scutellospora gregaria";1;0;0;0;0;0;1;0;0;0;0;0;0;0;2
+"Scutellospora gregaria";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Scutellospora heterogama";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Scutellospora nigra";1;0;0;0;0;0;0;0;0;0;1;0;0;0;2
 "Scutellospora pellucida";1;0;0;0;0;0;1;0;0;0;1;0;0;0;3
-"Scutellospora sp. ";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Scutellospora verrucosa";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Scutopeltis alafiae";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Scytinostroma africanogalactinum";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
@@ -4068,7 +4050,7 @@
 "Sphacelia oryzae";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Sphaceloma lophirae";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Sphaerellopsis filum";0;0;0;1;0;0;1;0;0;0;0;0;1;0;3
-"Sphaerobolus stellatus ";1;0;0;1;0;0;0;0;0;0;1;0;0;1;4
+"Sphaerobolus stellatus";1;0;0;1;0;0;0;0;0;0;1;0;0;1;4
 "Sphaeromma furcatiseta";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Sphaeronaema mirabile";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Sphaeronaema oryzae";0;0;0;0;0;0;0;0;1;0;0;1;0;0;2
@@ -4132,7 +4114,7 @@
 "Sporisorium elegantis";1;0;0;0;0;0;0;0;0;0;1;0;0;0;2
 "Sporisorium fastigiatum";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Sporisorium flagellatum";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
-"Sporisorium ischaemi ";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
+"Sporisorium ischaemi";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Sporisorium ischaemicola";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Sporisorium lanigeri";0;0;0;0;0;0;0;0;0;1;1;1;1;0;4
 "Sporisorium moniliferum";0;0;0;0;0;0;0;0;0;0;1;0;1;1;3
@@ -4150,8 +4132,7 @@
 "Sporopodium phyllocharis";0;0;0;1;1;0;1;0;0;0;0;0;0;0;3
 "Sporopodium podosphaera";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Sporopodium xantholeucum";0;0;0;0;1;0;1;0;0;0;0;0;0;0;2
-"Sporoschisma hemipsilum";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
-"Sporoschisma hemipsilum ";0;0;0;1;0;0;0;0;0;0;0;0;0;1;2
+"Sporoschisma hemipsilum";0;0;0;1;0;0;0;0;0;0;0;0;0;1;2
 "Sporothrix curviconia";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Sporothrix echinospora";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Sporothrix ghanensis";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
@@ -4254,7 +4235,7 @@
 "Stylobates paradoxus";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Subplenodomus apiicola";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Subulicystidium brachysporum";0;0;0;0;0;0;0;0;0;0;1;0;1;0;2
-"Suillus granulatus ";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
+"Suillus granulatus";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Sulzbacheromyces miomboensis";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Symphytocarpus flaccidus";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Symphytocarpus herbaticus";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
@@ -4286,7 +4267,7 @@
 "Teratosperma appendiculatum";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Teratosperma lichenicola";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
 "Termitomyces aurantiacus";1;0;0;1;0;0;0;0;0;0;0;0;1;0;3
-"Termitomyces bulborhizus ";0;0;0;0;0;0;0;0;0;1;0;0;0;0;1
+"Termitomyces bulborhizus";0;0;0;0;0;0;0;0;0;1;0;0;0;0;1
 "Termitomyces citriophyllus";0;0;0;0;1;0;1;0;0;0;0;0;0;0;2
 "Termitomyces clypeatus";1;1;0;1;0;0;0;0;0;0;1;1;0;1;6
 "Termitomyces congolensis";0;0;0;0;0;0;0;1;0;0;0;0;0;0;1
@@ -4319,7 +4300,7 @@
 "Theissenia pyrenocrata";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Thelenella fugiens";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Thelephora flabelliformis";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Thelephora terrestris ";0;0;0;1;0;0;0;1;0;0;0;0;0;0;2
+"Thelephora terrestris";0;0;0;1;0;0;0;1;0;0;0;0;0;0;2
 "Thelonectria olida";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Thelopsis selenospora";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Thelotrema fumosum";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
@@ -4337,6 +4318,7 @@
 "Tilletia vittata";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Tinctoporellus epimiltinus";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Titaeopsis ugandae";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
+"Tolyposporella eriocauli";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Tolyposporella eriocaulonis";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Tolyposporella rhytachnes";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Tolyposporium kuwanoanum";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
@@ -4379,6 +4361,7 @@
 "Trametes elegans";1;0;0;0;0;0;0;0;0;0;1;0;0;1;3
 "Trametes ellisiana";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Trametes expallens";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
+"Trametes flavida";1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
 "Trametes heterospora";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Trametes hirsuta";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Trametes hirta";0;0;1;1;0;0;0;0;0;1;1;0;1;0;5
@@ -4439,7 +4422,6 @@
 "Trichoderma virens";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Trichoderma viride";0;0;0;1;0;0;1;0;0;0;1;0;1;1;5
 "Trichoglossum hirsutum";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Tricholoma atroviolaceum";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Tricholoma pratense";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Tricholomopsis aurea";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Trichophyton concentricum";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
@@ -4476,14 +4458,14 @@
 "Tubaria furfuracea";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Tuberculina costaricana";0;0;0;1;0;0;0;0;0;0;1;0;0;0;2
 "Tuberculina persicina";0;0;0;1;0;0;1;0;0;1;0;0;0;0;3
-"Tubeufia aurantiella ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Tubeufia aurantiella";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Tubifera ferruginosa";0;0;0;0;0;0;0;1;0;0;1;0;0;0;2
 "Tubosaeta brunneosetosa";0;1;0;0;1;0;1;1;0;0;0;1;0;1;6
 "Tubosaeta goossensiae";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Tubosaeta heterosetosa";0;0;0;0;0;0;1;0;0;0;0;0;0;1;2
 "Tulostoma chevalieri";1;0;0;0;0;0;0;0;0;0;0;0;0;1;2
 "Tulostoma chudaei";0;0;0;0;0;0;0;0;1;0;0;0;0;0;1
-"Tulostoma evanescens ";0;0;0;0;0;0;0;0;0;1;0;0;0;0;1
+"Tulostoma evanescens";0;0;0;0;0;0;0;0;0;1;0;0;0;0;1
 "Tulostoma exasperatum";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Tulostoma fusipes";0;0;0;0;0;0;0;0;1;0;0;0;0;0;1
 "Tulostoma nanum";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
@@ -4495,7 +4477,6 @@
 "Tulostoma volvulatum";0;0;0;0;0;0;0;0;1;0;0;0;0;0;1
 "Tylophoron ascidioides";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Tylopilus cellulosus";0;0;0;0;0;0;0;1;0;0;0;0;0;0;1
-"Tylopilus griseus";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Tylopilus niger";0;0;0;0;0;0;0;0;0;0;0;1;0;0;1
 "Tylopilus niger ";0;0;0;0;0;0;1;0;0;0;0;1;0;0;2
 "Tylopilus tenuis";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
@@ -4524,7 +4505,7 @@
 "Uredo entandophragmae";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Uredo erythrinae";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Uredo eulophiae";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
-"Uredo famelica ";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
+"Uredo famelica";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Uredo geophiliana";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Uredo geophilicola";0;0;0;1;0;0;1;0;0;0;0;0;0;0;2
 "Uredo harunganae";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
@@ -4539,9 +4520,8 @@
 "Uredo newbouldiae";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Uredopeltis chevalieri";0;0;0;1;0;0;1;0;0;0;0;1;0;0;3
 "Uredopeltis congensis";0;0;0;0;1;0;1;0;0;0;1;0;0;0;3
-"Uredo philippinensis ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Uredo philippinensis";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Uredo pieningii";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
-"Uredo pieningii ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Uredo psorospermi";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Uredo pycreicola";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
 "Uredo rottboelliae";0;0;0;0;0;0;0;0;0;0;1;0;1;0;2
@@ -4578,13 +4558,12 @@
 "Uromyces panici-sanguinalis";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Uromyces pazschkeanus";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Uromyces pieningii";0;0;0;1;0;0;0;0;0;0;0;0;1;0;2
-"Uromyces pieningii ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Uromyces pretoriensis";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Uromyces rhinacanthi";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Uromyces scleriae";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Uromyces setariae-italicae";0;0;0;1;1;0;1;0;1;1;1;0;1;1;8
 "Uromyces stylochitonis";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
-"Uromyces tenuicutis ";0;0;0;1;1;0;0;0;0;0;1;0;0;0;3
+"Uromyces tenuicutis";0;0;0;1;1;0;0;0;0;0;1;0;0;0;3
 "Uromyces vignae";0;0;0;1;0;0;0;0;0;0;1;0;1;0;3
 "Usnea africana";0;0;0;0;1;0;1;0;0;0;1;0;0;0;3
 "Usnea arguta";0;0;0;0;0;0;1;0;0;0;0;0;0;0;1
@@ -4594,7 +4573,6 @@
 "Usnea florida var. strigosa";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Usnea gigas";0;0;0;0;1;0;1;0;0;0;0;0;0;0;2
 "Usnea hispida";0;0;0;0;1;0;0;0;0;0;1;0;0;0;2
-"Usnea implicata";0;0;0;0;1;0;1;0;0;0;0;0;0;0;2
 "Usnea ledienii";0;0;0;0;1;0;0;0;0;0;1;0;0;0;2
 "Usnea leprosa";0;0;0;0;0;0;0;0;1;0;0;0;1;0;2
 "Usnea perplexans";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
@@ -4618,7 +4596,7 @@
 "Ustilago microchloae";0;0;0;1;0;0;1;0;0;0;0;1;0;1;4
 "Ustilago oplismeni";0;0;0;0;1;0;0;0;0;0;0;0;0;0;1
 "Ustilago paspalidiicola";0;0;0;0;0;0;0;0;0;0;1;1;0;0;2
-"Ustilago rickeri ";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
+"Ustilago rickeri";0;0;0;0;0;0;0;0;0;0;1;0;0;0;1
 "Ustilago schlechteri";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Ustilago syntherismae";0;0;0;0;0;0;0;0;0;0;1;0;1;0;2
 "Ustilago trichophora";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
@@ -4704,7 +4682,7 @@
 "Xylaria maitlandii";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
 "Xylaria mellissii";0;0;0;1;0;0;0;0;0;0;0;0;1;1;3
 "Xylaria multiplex";0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
-"Xylaria nigrescens ";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+"Xylaria nigrescens";0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
 "Xylaria obtusissima";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Xylaria obtusissima var. togoensis";0;0;0;0;0;0;0;0;0;0;0;0;0;1;1
 "Xylaria papyrifera";1;0;0;0;0;0;0;0;0;0;1;0;1;0;3

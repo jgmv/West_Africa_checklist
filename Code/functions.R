@@ -23,7 +23,7 @@ parse_raw_checklist <- function(file = "Data/checklist.csv", remove_genus = T) {
     "Mali", "Niger", "Nigeria", "Senegal", "Sierra Leone", "Togo", "comments")
   
   # remove synonyms (select desired option by uncommenting)
-  #data <- droplevels(data[data$status == "valid", ])
+  #data <- droplevels(data[data$status == "accepted", ])
   data <- droplevels(data[grep("^syn.", data$status, invert = T), ])
   
   # modify publication's year data
@@ -32,7 +32,7 @@ parse_raw_checklist <- function(file = "Data/checklist.csv", remove_genus = T) {
   data$year[data$year == ""] <- NA
   
   # remove trailing spaces in columns
-  for(i in ncol(data)) data[, i] <- trimws(data[, i], which = c("both"))
+  for(i in 1:ncol(data)) data[, i] <- trimws(data[, i], which = c("both"))
   
   # drop empty levels
   data <- droplevels(data)
@@ -537,7 +537,7 @@ plot_accumulation_curves <- function(data) {
   records_sp_country_curves <- rarecurve(records_sp_country)
   dev.off()
   pdf("Output/accumulation_curves_per_record.pdf", w = 3.5, h = 3,
-    pointsize = 14)
+    pointsize = 14, useDingbats = F)
   par(xpd = F, mar = c(4, 4, 1, 1), tck = -0.025, mgp = c(3, 0.6, 0.6))
   plot(0, 0, type = "n", xlim = c(0, 4500), ylim = c(0, 1800), xlab = "Records",
     ylab = "Species", axes = F)
@@ -562,7 +562,7 @@ plot_accumulation_curves <- function(data) {
   
   # per publication
   pdf("Output/accumulation_curve_per_publication.pdf", w = 3.5, h = 3,
-    pointsize = 14)
+    pointsize = 14, useDingbats = F)
   par(xpd = F, mar = c(4, 4, 1, 1), las = 1, tck = -0.025,
     mgp = c(3, 0.6, 0.6))
   plot(0, 0, type = "n", xlim = c(0, max(ref_x_country)), ylim = c(0, 1800),
@@ -596,7 +596,7 @@ plot_accumulation_curves <- function(data) {
   
   lcol <- "#2c5aa0"
   pdf("Output/accumulation_curve_per_publication_WA.pdf", w = 3.5, h = 3,
-      pointsize = 14)
+      pointsize = 14, useDingbats = F)
   par(xpd = F, mar = c(4, 4, 1, 1), las = 1, tck = -0.025, mgp = c(3, 0.6, 0.6))
   plot(0, 0, type = "n", xlim = c(0, max(ref_accum$sites)),
     ylim = c(0, max(summary(ref_est)$chao[,"Chao"])), xlab = "Publications",
@@ -654,7 +654,7 @@ prepare_authors_data <- function(data,
   file = "Data/first_author_activity.csv") {  
   authors <- data[, c("literature_reference", "year")]
   authors$literature_reference <- data$literature_reference
-  strsplit(as.character(authors$literature_reference), " et")[[1]]
+  #strsplit(as.character(authors$literature_reference), " et")[[1]]
   x <- sapply(strsplit(as.character(authors$literature_reference), " et"),
     '[', 1)
   x <- sapply(strsplit(x, " &"), '[', 1)
@@ -677,7 +677,7 @@ prepare_authors_data <- function(data,
   authors_data <- as.data.frame(authors_data)
   authors_data_extracted <- authors_data
   
-  # input manualy inserted data
+  # input manually inserted data
   authors_data <- read.csv(file, h = T, sep = ";", row.names = 1)  
   authors_data_extracted$origin <- rep(NA, nrow(authors_data_extracted))
   for(i in rownames(authors_data_extracted)) {
@@ -838,10 +838,6 @@ lichen_substrata <- function(data) {
   lichen <- lichen[-grep(",", lichen)]
   lichen <- trimws(lichen, which = c("both"))
 
-  #### needs to be corrected in main file
-  lichen[lichen == "corticole?"] <- "corticole"
-  ####
-
   tab <- sort(table(lichen), decreasing = T)
   unk <- which(names(tab) == "unknown")
   tab <- tab[c(1:(unk - 1), (unk + 1):length(tab), unk)]
@@ -948,7 +944,7 @@ type_specimens <- function(data) {
 incertae_sedis_taxa <- function(data) {
   is_spp <- data[unique(c(grep("sedis", data$order),
     grep("sedis", data$family))), "species"]
-  is_spp <- droplevels(is_spp)
+  #is_spp <- droplevels(is_spp)
   message(paste("Number of records with an incertae sedis taxon:",
     length(is_spp))) 
   is_spp <- unique(is_spp)
@@ -960,3 +956,62 @@ incertae_sedis_taxa <- function(data) {
   return(is_x_division)
 }
 
+
+### Mantel correlogram ---------------------------------------------------------
+mantel_correlogram <- function(data, country, dist_method = "jacc") {
+  require(sp)
+  require(vegan)
+
+  cdm <- table(data$country, data$species)
+  cdm[cdm > 0] <- 1
+  coord <- country[-1, c("x", "y")]
+  bio_dist <- vegdist(cdm, method = dist_method, diag = T, upper = T)
+  geo_dist <- spDists(as.matrix(coord), longlat = T)
+  rownames(geo_dist) <- rownames(coord)
+  colnames(geo_dist) <- rownames(coord)
+  mantel_test <- mantel(bio_dist, geo_dist)
+  mantel_correlog <- mantel.correlog(bio_dist, geo_dist)
+
+  pdf("Output/mantel_correlogram.pdf", h = 3, w = 4)
+  par(mar = c(4, 4, 2, 1), lwd = 1.5, xpd = T)
+  plot_mantel(mantel_correlog, type = "o", col1 = "white", cex = 1.5)
+  mtext(paste0("R = ", round(mantel_test$statistic, 2), ", P = ",
+    round(mantel_test$signif, 2)), side = 3, line = 0, font = 2, adj = 1)
+  dev.off()
+}
+
+
+### plots Mantel correlograms --------------------------------------------------
+# function for ceiling and floor with decimals
+ceiling_dec <- function(x, level = 1) round(x + 5 * 10^(-level - 1), level)
+floor_dec   <- function(x, level = 1) round(x - 5 * 10^(-level - 1), level)
+
+# plot correlogram
+plot_mantel <- function(data, pthr = 0.05, col1 = 0, col2 = 1, type = "b",
+  las = 1, ...) {
+  require(vegan)
+  data       <- na.omit(as.data.frame(data$mantel.res))
+  data$color <- rep(col1, nrow(data))
+  for (i in 1:nrow(data)) {
+    if (data[i, 5] <= pthr) data[i, "color"] <- col2
+  }
+  xrange <- c(min(data$class.index) * 0.1, max(data$class.index) * 1.1)
+  if(min(data$Mantel.cor) < 0) {
+    yrange <- c(min(data$Mantel.cor) * 1.1, max(data$Mantel.cor) * 1.1)
+  } else {
+    yrange <- c(min(data$Mantel.cor) * 0.1, max(data$Mantel.cor) * 1.1)
+  }
+  xrange <- c(floor_dec(xrange[1]), ceiling_dec(xrange[2]))
+  yrange <- c(floor_dec(yrange[1]), ceiling_dec(yrange[2]))
+  plot(data$class.index, data$Mantel.cor, type = "n", axes = F, ylab = "R",
+    xlab = "Distance (Km)", xlim = xrange, ylim = yrange)
+  lines(par("xaxp")[1:2], c(0, 0), col = gray(0.5), lty = 3)
+  lines(data$class.index, data$Mantel.cor, type = type, pch = 21,
+    bg = data$color, ...)
+  axis(1, pos = par("yaxp")[1], lwd = par("lwd"), las = las)
+  axis(2, pos = par("xaxp")[1], lwd = par("lwd"), las = las)
+  return(data)
+}
+
+
+### end

@@ -3,22 +3,22 @@
 "Athelia rolfsii";167
 "Lasiodiplodia theobromae";124
 "Colletotrichum gloeosporioides";93
-"Lentinus tuber-regium";68
+"Lentinus tuber-regium";69
 "Termitomyces striatus";65
 "Lentinus squarrosulus";62
 "Ganoderma lucidum";58
+"Schizophyllum commune";58
 "Curvularia lunata";57
-"Schizophyllum commune";56
 "Macrophomina phaseolina";52
 "Armillaria mellea";48
 "Nigrospora oryzae";47
 "Volvariella volvacea";44
 "Termitomyces microcarpus";43
 "Termitomyces robustus";43
+"Aspergillus niger";41
 "Fusarium solani";41
 "Moesziomyces bullatus";41
 "Aspergillus flavus";40
-"Aspergillus niger";40
 "Cercospora canescens";40
 "Puccinia substriata";40
 "Zygosporium oscheoides";40
@@ -26,10 +26,10 @@
 "Corynespora cassiicola";38
 "Choanephora cucurbitarum";36
 "Colletotrichum graminicola";36
-"Lactifluus gymnocarpus";36
 "Paramyrothecium roridum";36
 "Uromyces setariae-italicae";36
-"Daldinia eschscholtzii";33
+"Daldinia eschscholtzii";35
+"Lactifluus gymnocarpus";35
 "Termitomyces clypeatus";33
 "Exserohilum turcicum";32
 "Cintractia limitata";31
@@ -65,15 +65,15 @@
 "Meliola voacangae";23
 "Mycosphaerella berkeleyi";23
 "Pycnoporus sanguineus";23
-"Scleroderma dictyosporum";23
 "Termitomyces fuliginosus";23
-"Chlorophyllum molybdites ";22
+"Chlorophyllum molybdites";22
 "Cochliobolus geniculatus";22
 "Conidiosporomyces ayresii";22
 "Curvularia pallescens";22
 "Gibberella fujikuroi";22
 "Meliola psychotriae";22
 "Phytophthora palmivora";22
+"Scleroderma dictyosporum";22
 "Sporisorium reilianum";22
 "Auricularia cornea";21
 "Irenopsis aciculosa";21
@@ -85,17 +85,15 @@
 "Anthracocystis ehrenbergii";20
 "Cintractia axicola";20
 "Pestalotiopsis palmarum";20
+"Volvariella esculenta";20
 "Agaricus goossensiae";19
 "Ceratocystis paradoxa";19
 "Cookeina sulcipes";19
-"Scleroderma verrucosum";19
-"Volvariella esculenta";19
 "Colletotrichum coccodes";18
 "Microporus xanthopus";18
 "Pseudocercospora abelmoschi";18
+"Scleroderma verrucosum";18
 "Stenocarpella macrospora";18
-"Tubosaeta brunneosetosa";18
-"Amanita crassiconus";17
 "Ganoderma colossus";17
 "Lentinus velutinus";17
 "Phakopsora desmium";17
@@ -112,18 +110,21 @@
 "Epicoccum andropogonis";16
 "Meliola stizolobii";16
 "Podaxis pistillaris";16
+"Russula congoana";16
+"Tubosaeta brunneosetosa";16
 "Alternaria brassicicola";15
+"Amanita crassiconus";15
 "Cercospora arachidicola";15
 "Earliella scabrosa";15
 "Lactifluus flammans";15
 "Lactifluus luteopus";15
 "Marasmiellus inoderma";15
 "Meliola albiziae";15
+"Psathyrella atroumbonata";15
 "Psathyrella tuberculata";15
 "Pseudocercospora contraria";15
 "Puccinia polysora";15
 "Rhytidhysteron rufulum";15
-"Russula congoana";15
 "Scolecostigmina mangiferae";15
 "Spiropes dorycarpus";15
 "Tremella fuciformis";15
@@ -140,7 +141,6 @@
 "Neonothopanus hygrophanus";14
 "Penicillium citrinum";14
 "Phyllachora paspalicola";14
-"Psathyrella atroumbonata";14
 "Pseudocamptoum fasciculatum";14
 "Pseudocercospora stizolobii";14
 "Rhizophagus intraradices";14
@@ -183,7 +183,6 @@
 "Aspergillus fumigatus";12
 "Asteridiella glabra";12
 "Botrytis cinerea";12
-"Cantharellus pseudofriesii";12
 "Cercospora apii";12
 "Cerotelium corchori";12
 "Funneliformis mosseae";12
@@ -203,24 +202,21 @@
 "Puccinia erythraeensis";12
 "Puccinia lateritia";12
 "Ravenelia zygiae";12
-"Russula annulata";12
 "Sporisorium schweinfurthianum";12
 "Stachylidium bicolor";12
 "Syngliocladium acridiorum var. acridiorum";12
 "Termitomyces globulus";12
-"Xerocomus subspinulosus";12
 "Aecidium bomolense";11
 "Albonectria rigidiuscula";11
 "Alternaria dauci";11
 "Amanita strobilaceovolvata";11
-"Asteridiella entebbeensis ";11
+"Asteridiella entebbeensis";11
 "Cercospora annulata";11
 "Cercospora nicotianae";11
 "Cercospora sesami";11
 "Cercospora volkameriae";11
 "Claviceps fusiformis";11
-"Coltricia cinnamomea";11
-"Cyathus limbatus ";11
+"Cyathus limbatus";11
 "Lactarius miniatescens";11
 "Lactarius tenellus";11
 "Lactifluus densifolius";11
@@ -233,14 +229,15 @@
 "Pseudoperonospora cubensis";11
 "Puccinia heterospora";11
 "Ramulispora sorghi";11
+"Russula annulata";11
 "Sporidesmium vagum";11
 "Sporisorium andropogonis";11
 "Sporisorium cruentum";11
-"Uromyces tenuicutis ";11
+"Uromyces tenuicutis";11
 "Zygosporium echinosporum";11
 "Ampullifera foliicola";10
 "Asteridiella combreti";10
-"Asteridiella cyclopoda ";10
+"Asteridiella cyclopoda";10
 "Beauveria bassiana";10
 "Cercospora duddiae";10
 "Cercospora physalidis";10
@@ -262,6 +259,7 @@
 "Pestalotiopsis guepinii";10
 "Pseudopestalotiopsis theae";10
 "Puccinia cynodontis";10
+"Russula cellulata";10
 "Spiropes penicillium";10
 "Sporisorium andropogonis-tectorum";10
 "Stachybotrys parvispora";10
@@ -276,10 +274,12 @@
 "Amanita xanthogala";9
 "Ascochyta sorghi";9
 "Asteridiella hansfordii";9
+"Cantharellus pseudofriesii";9
 "Cercospora bidentis";9
 "Cercospora carbonacea";9
 "Cercospora chevalieri";9
 "Cladosporium herbarum";9
+"Coltricia cinnamomea";9
 "Corynespora torulosa";9
 "Crinipellis glaucospora";9
 "Davidiella spilota";9
@@ -308,17 +308,15 @@
 "Phyllachora sphaerosperma";9
 "Pseudocercospora bradburyae";9
 "Puccinia batatas";9
-"Russula cellulata";9
-"Russula liberiensis";9
 "Russula oleifera";9
 "Spegazzinia tessarthra";9
 "Trametes meyenii";9
 "Uromyces decoratus";9
 "Wallrothiella subiculosa";9
+"Xerocomus subspinulosus";9
 "Aecidium phyllanthi";8
 "Agaricus trisulphuratus";8
 "Alternaria zinniae";8
-"Amanita hemibapha";8
 "Armillaria heimii";8
 "Asterina manihotis";8
 "Cercospora capsici";8
@@ -335,7 +333,6 @@
 "Gloeocercospora sorghi";8
 "Itajahya rosea";8
 "Lactifluus denigricans";8
-"Lactifluus pelliculatus";8
 "Lentinus brunneofloccosus";8
 "Marasmius bekolacongoli";8
 "Meliola caesalpiniae";8
@@ -353,7 +350,7 @@
 "Passalora vaginae";8
 "Pestalotiopsis aquatica";8
 "Pestalotiopsis disseminata";8
-"Pestalotiopsis versicolor ";8
+"Pestalotiopsis versicolor";8
 "Phyllachora contigua";8
 "Phyllachora minutissima";8
 "Phyllachora pterocarpi";8
@@ -369,12 +366,12 @@
 "Puccinia sorghi";8
 "Ramichloridium musae";8
 "Rhizophagus fasciculatus";8
-"Rhopalostroma angolense ";8
+"Rhopalostroma angolense";8
 "Russula compressa";8
 "Schizothyrium rufulum";8
 "Scolecostigmina palmivora";8
 "Spegazzinia deightonii";8
-"Sphaerobolus stellatus ";8
+"Sphaerobolus stellatus";8
 "Stachybotrys kampalensis";8
 "Stemonitis fusca";8
 "Tilletia elymandrae";8
@@ -437,6 +434,8 @@
 "Hexagonia discopoda";7
 "Hymenagaricus alphitochrous";7
 "Lactarius kabansus";7
+"Lactifluus annulatoangustifolius";7
+"Lactifluus medusae";7
 "Lactifluus pseudogymnocarpus";7
 "Lactifluus volemoides";7
 "Lignosus sacer";7
@@ -478,8 +477,9 @@
 "Puccinia oahuensis";7
 "Puccinia purpurea";7
 "Puccinia rottboelliae";7
-"Puccinia rufipes ";7
+"Puccinia rufipes";7
 "Pucciniosira mitragynae";7
+"Russula liberiensis";7
 "Spiropes guareicola";7
 "Spiropes helleri";7
 "Spiropes palmetto";7
@@ -503,6 +503,7 @@
 "Alternaria cucumerina";6
 "Alternaria elegans";6
 "Amanita craseoderma";6
+"Amanita hemibapha";6
 "Annellolacinia dinemasporioides";6
 "Annellophora africana";6
 "Annulohypoxylon annulatum";6
@@ -561,10 +562,9 @@
 "Irenopsis mikaniae";6
 "Jamesdicksonia dactylidis";6
 "Lactarius edulis";6
-"Lactifluus annulatoangustifolius";6
 "Lactifluus edulis";6
 "Lactifluus emergens";6
-"Lactifluus medusae";6
+"Lactifluus pelliculatus";6
 "Leiotrametes menziesii";6
 "Leucocintractia scleriae";6
 "Marasmius corrugatiformis";6
@@ -600,7 +600,7 @@
 "Pseudocercospora scitula";6
 "Puccinia digitariae-velutinae";6
 "Puccinia zorniae";6
-"Pucciniosira anthocleistae ";6
+"Pucciniosira anthocleistae";6
 "Pycnoporus cinnabarinus";6
 "Pyrenula mamillana";6
 "Ramulispora alloteropsis";6
@@ -621,7 +621,6 @@
 "Usnea africana";6
 "Ustilago dactylocteniophila";6
 "Ustilago syntherismae";6
-"Xerocomus hypoxanthus";6
 "Xylaria feejeensis";6
 "Xylaria grammica";6
 "Xylaria hypoxylon";6
@@ -676,7 +675,7 @@
 "Cryptococcus neoformans";5
 "Curvularia intermedia";5
 "Curvularia oryzae";5
-"Dictyonella scabra ";5
+"Dictyonella scabra";5
 "Didymella glomerata";5
 "Englerula leonensis";5
 "Eriomycopsis flagellata";5
@@ -709,7 +708,8 @@
 "Lacellina graminicola";5
 "Lacellinopsis sacchari";5
 "Lactarius acutus";5
-"Lactarius lignyotus ";5
+"Lactarius lignyotus";5
+"Lactifluus ruvubuensis";5
 "Lactifluus sudanicus";5
 "Langermannia wahlbergii";5
 "Lentinus arcularius ";5
@@ -792,6 +792,7 @@
 "Pythium aphanidermatum";5
 "Ramularia gossypii";5
 "Russula flavobrunnea";5
+"Russula meleagris";5
 "Sarocladium oryzae";5
 "Sarocladium strictum";5
 "Schiffnerula hippocrateae";5
@@ -816,7 +817,6 @@
 "Strigula nemathora";5
 "Talaromyces funiculosus";5
 "Thamnomyces chamissonis";5
-"Tolyposporella eriocaulonis";5
 "Tolyposporella rhytachnes";5
 "Trametes elegans";5
 "Trametes speciosa";5
@@ -840,6 +840,7 @@
 "Aecidium micrococcae";4
 "Aecidium nummulare";4
 "Aecidium schwenkiae";4
+"Amanita annulatovaginata";4
 "Amauroderma preussii ";4
 "Amauroderma rugosum";4
 "Amazonia psychotriae";4
@@ -849,6 +850,7 @@
 "Arthonia trilocularis";4
 "Arthrinium sacchari";4
 "Aschersonia crenulata";4
+"Aschersonia flavescens";4
 "Aspergillus awamori";4
 "Aspergillus flavipes";4
 "Aspergillus glaucus";4
@@ -942,7 +944,7 @@
 "Geastrum lageniforme";4
 "Geastrum velutinum";4
 "Gigaspora decipiens";4
-"Glomus ambisporum ";4
+"Glomus ambisporum";4
 "Glomus hoi";4
 "Glomus macrocarpum";4
 "Glomus taiwanense";4
@@ -959,7 +961,7 @@
 "Haplographium mangiferae";4
 "Helminthosporium albiziae";4
 "Helminthosporium lycopersici";4
-"Hemileia dioscoreae-aculeatae ";4
+"Hemileia dioscoreae-aculeatae";4
 "Hemitrichia calyculata";4
 "Hemitrichia serpula";4
 "Hermatomyces tucumanensis";4
@@ -980,7 +982,6 @@
 "Lactifluus nonpiscis";4
 "Lactifluus pumilus";4
 "Lactifluus rubiginosus";4
-"Lactifluus ruvubuensis";4
 "Lembosia lagynopoda";4
 "Lentinus atrobrunneus";4
 "Lentinus crinitus";4
@@ -996,7 +997,7 @@
 "Marasmius castaneovelutinus";4
 "Marasmius graminum";4
 "Marasmius guyanensis";4
-"Marasmius leveilleanus ";4
+"Marasmius leveilleanus";4
 "Marasmius rotula";4
 "Marasmius spaniophyllus";4
 "Marasmius umbrinus";4
@@ -1098,7 +1099,7 @@
 "Pseudocercospora serpentinae";4
 "Pseudocercospora subsessilis";4
 "Pseudoperonospora cassiae";4
-"Psilocybe citrina ";4
+"Psilocybe citrina";4
 "Puccinia aspiliae-latifoliae";4
 "Puccinia chaetochloae";4
 "Puccinia dolosoides";4
@@ -1114,7 +1115,6 @@
 "Repetophragma aburiense";4
 "Repetophragma inflatum";4
 "Rhytidenglerula minima";4
-"Russula meleagris";4
 "Russula sesenagula";4
 "Russula testacea";4
 "Saccharomyces cerevisiae";4
@@ -1134,6 +1134,7 @@
 "Termitomyces aurantiacus";4
 "Tetraposporium asterinearum";4
 "Tilletia barclayana";4
+"Tolyposporella eriocaulonis";4
 "Trametella telfairii";4
 "Trametes incondita";4
 "Trametes membranacea ";4
@@ -1152,6 +1153,7 @@
 "Ustilago cynodontis";4
 "Verticicladium ugandense";4
 "Vizella gomphispora";4
+"Xerocomus hypoxanthus";4
 "Xerotus afer";4
 "Xylaria mellissii";4
 "Ypsilospora africana";4
@@ -1181,7 +1183,6 @@
 "Alternaria alternata";3
 "Alternaria atra";3
 "Alternaria solani";3
-"Amanita annulatovaginata";3
 "Amanita baccata";3
 "Amanita bingensis";3
 "Ambispora gerdemannii";3
@@ -1246,7 +1247,7 @@
 "Calonectria ugandae";3
 "Calvatia bicolor";3
 "Ceraceosorus africanus";3
-"Cercospora furfurella ";3
+"Cercospora furfurella";3
 "Cercospora longissima";3
 "Cercospora melongenae";3
 "Cercospora petuniae";3
@@ -1314,6 +1315,7 @@
 "Englerulella ugandensis";3
 "Epicoccum neglectum";3
 "Eriomycopsis biseptata";3
+"Eumitria baileyi";3
 "Eutypella citricola";3
 "Eutypella coffeicola";3
 "Exidia thuretiana";3
@@ -1332,7 +1334,7 @@
 "Geastrum mirabile";3
 "Geastrum schweinitzii";3
 "Gibellula pulchra";3
-"Gigaspora margarita ";3
+"Gigaspora margarita";3
 "Glomus aureum";3
 "Glomus brohultii";3
 "Glomus rubiforme";3
@@ -1352,6 +1354,7 @@
 "Helminthosporium coffeae";3
 "Helminthosporium panici";3
 "Helminthosporium phyllantheum";3
+"Hemileia buntingii";3
 "Hemileia ruspoliae";3
 "Hemileia strophanthi";3
 "Heterochaete shearii";3
@@ -1381,6 +1384,7 @@
 "Lactarius atro-olivinus";3
 "Lactarius hispidulus";3
 "Lactarius pseudolignyotus";3
+"Lactarius pulchrispermus";3
 "Lactifluus aurantiifolius";3
 "Lactifluus caperatus";3
 "Lactifluus flavellus";3
@@ -1438,6 +1442,7 @@
 "Meliola millettiae-rhodanthae";3
 "Meliola opposita";3
 "Meliola pericampyli";3
+"Meliola pleioceratis";3
 "Meliola pterocarpicola";3
 "Meliola secamones";3
 "Meliola sersalisiae";3
@@ -1501,7 +1506,6 @@
 "Phyllactinia papayae";3
 "Phyllogyalidea epiphylla";3
 "Phylloporia chrysites ";3
-"Phylloporus rhodoxanthus";3
 "Phyllopsora buettneri";3
 "Phyllosticta manihotis";3
 "Phyllosticta sojicola";3
@@ -1513,7 +1517,7 @@
 "Pleurocybella porrigens";3
 "Pleurotus cystidiosus";3
 "Pleurotus cystidiosus subsp. abalonus";3
-"Podaxis carcinomalis ";3
+"Podaxis carcinomalis";3
 "Podoscypha petalodes ";3
 "Podosphaera fuliginea";3
 "Polycephalomyces cylindrosporus";3
@@ -1579,7 +1583,6 @@
 "Scleroderma cepa";3
 "Scolecostigmina combreti";3
 "Scutellospora calospora";3
-"Scutellospora gregaria";3
 "Scutellospora verrucosa";3
 "Scytinostroma phaeosarcum";3
 "Septoria lactucae";3
@@ -1596,6 +1599,7 @@
 "Sporisorium elegantis";3
 "Sporisorium nyassae";3
 "Sporopodium phyllocharis";3
+"Sporoschisma hemipsilum";3
 "Sporothrix insectorum";3
 "Stachybotrys nephrosporus";3
 "Stagonosporopsis caricae";3
@@ -1644,6 +1648,7 @@
 "Uredo tesoensis";3
 "Uromyces melantherae";3
 "Uromyces orientalis";3
+"Uromyces pieningii";3
 "Uromyces pretoriensis";3
 "Usnea hispida";3
 "Usnea ledienii";3
@@ -1668,7 +1673,7 @@
 "Acaulospora lacunosa";2
 "Acaulospora longula";2
 "Acaulospora rehmii";2
-"Acaulospora tuberculata ";2
+"Acaulospora tuberculata";2
 "Achrotelium urerae";2
 "Acremoniella atra";2
 "Acremonium cajani";2
@@ -1700,8 +1705,10 @@
 "Alternaria hibisci";2
 "Alternaria tenuissima";2
 "Amandinea efflorescens";2
+"Amanita fulvopulverulenta";2
+"Amanita lanosa";2
 "Amanita lanosula";2
-"Amanita phalloides ";2
+"Amanita phalloides";2
 "Amanita pulverulenta";2
 "Amauroderma auriscalpium";2
 "Amauroderma conjunctum";2
@@ -1734,8 +1741,6 @@
 "Arthonia lividula";2
 "Arthrinium arundinis";2
 "Arthrobotrys superba";2
-"Aschersonia flavescens";2
-"Aschersonia flavescens ";2
 "Aschersonia hypocreoidea";2
 "Aspergillus aculeatus";2
 "Aspergillus aureolus";2
@@ -1750,7 +1755,7 @@
 "Aspergillus implicatus";2
 "Aspergillus ivoriensis";2
 "Aspergillus longivesica";2
-"Aspergillus reptans ";2
+"Aspergillus reptans";2
 "Aspergillus terricola";2
 "Aspergillus violaceus";2
 "Asperisporium caricae";2
@@ -1799,14 +1804,12 @@
 "Bellulicauda dialii";2
 "Bipolaris triticicola";2
 "Bisporella citrina";2
+"Bjerkandera adusta";2
 "Blakeslea trispora";2
-"Boletus bicolor";2
 "Boletus njalaensis";2
 "Boletus pallidissimus";2
 "Bombyliospora nigeriensis";2
-"Bothia castanella";2
 "Botryodiplodia caricae";2
-"Brachysporium sp. ";2
 "Brasilicia foliicola";2
 "Brigantiaea tricolor";2
 "Bryocentria gynophila";2
@@ -1862,8 +1865,8 @@
 "Clasterosporium scleriae";2
 "Clathrus parvulus";2
 "Claviradulomyces dabeicola";2
-"Clavulina castaneipes";2
 "Clitocybe gibba";2
+"Clitocybe rivulosa";2
 "Clypeolum sparsum";2
 "Coccocarpia erythroxyli";2
 "Coccomyces cocoes";2
@@ -1915,7 +1918,7 @@
 "Curvularia verruculosa";2
 "Cyathia intermedia";2
 "Cymatoderma africanum";2
-"Cymatoderma caperatum ";2
+"Cymatoderma caperatum";2
 "Cystolepiota luteohemisphaerica";2
 "Daedalea quercina";2
 "Daloala mardonii";2
@@ -1940,7 +1943,7 @@
 "Dirinaria isidiophora";2
 "Dirinaria leopoldii";2
 "Dirinaria palmarum";2
-"Discella cacaoicola ";2
+"Discella cacaoicola";2
 "Disciseda minima";2
 "Diversispora epigaea";2
 "Dolichousnea trichodeoides";2
@@ -1960,6 +1963,7 @@
 "Endophyllum formosanum";2
 "Englerula xanthina";2
 "Enterobryus tuzetae";2
+"Entoloma afrum";2
 "Epibryon filiforme";2
 "Epichloë oplismeni";2
 "Eriomycopsis bomplandi";2
@@ -2006,7 +2010,7 @@
 "Gliomastix musicola";2
 "Gloeoporus thelephoroides";2
 "Gloeosporium orbiculare";2
-"Glomus glomerulatum ";2
+"Glomus glomerulatum";2
 "Glyphis scyphulifera";2
 "Gongronella butleri";2
 "Graphiola borassi";2
@@ -2034,7 +2038,6 @@
 "Hemibeltrania cinnamomi";2
 "Hemicorynespora deightonii";2
 "Hemileia aureospora";2
-"Hemileia buntingii ";2
 "Hemileia canthii";2
 "Hemileia fadogiae";2
 "Hemileia harunganae";2
@@ -2049,11 +2052,11 @@
 "Hirsutella sporodochialis";2
 "Hirsutella thompsonii";2
 "Humicola brevis";2
-"Hyalosphaera pulchella ";2
+"Hyalosphaera pulchella";2
 "Hymenagaricus ardosiaecolor";2
 "Hymenagaricus kivuensis";2
 "Hypocreopsis macrostoma";2
-"Hypoxylon asperatum ";2
+"Hypoxylon asperatum";2
 "Hypoxylon placentiforme";2
 "Hypoxylon sclerophaeum";2
 "Hypoxylon sublimbatum";2
@@ -2089,11 +2092,11 @@
 "Lacellina leonensis";2
 "Lachnocladium furcellatum";2
 "Lactarius fulgens";2
-"Lactarius pulchrispermus";2
 "Lactarius sesemotani";2
 "Lactarius trivialis";2
 "Lactarius zenkeri";2
 "Lactifluus albomembranaceus";2
+"Lactifluus brunnescens";2
 "Lactifluus burkinabei";2
 "Lactifluus cocosmus";2
 "Lactifluus guellyi";2
@@ -2150,7 +2153,7 @@
 "Melanconium moreaui";2
 "Melanomma fuscidulum";2
 "Melanophyllum haematospermum";2
-"Melasmia sp. ";2
+"Meliola achyrospermi";2
 "Meliola africana";2
 "Meliola alstoniicola";2
 "Meliola amaraliae";2
@@ -2204,9 +2207,9 @@
 "Meliola palmicola";2
 "Meliola pandanicola";2
 "Meliola papayae";2
+"Meliola phyllanthicola";2
 "Meliola physostigmatis";2
 "Meliola piptadeniae";2
-"Meliola pleioceratis ";2
 "Meliola randiae";2
 "Meliola scott-elliotii";2
 "Meliola trichoscyphae";2
@@ -2223,7 +2226,9 @@
 "Metatrichia vesparium";2
 "Microascus brevicaulis ";2
 "Microbotryum reticulatum";2
+"Microporellus ellipsosporus";2
 "Microporus affinis";2
+"Micropsalliota elata";2
 "Micropsalliota endophaea";2
 "Microsporum audouinii";2
 "Minimidochium setosum";2
@@ -2384,7 +2389,7 @@
 "Porina rugosa";2
 "Porina sphaerocephaloides";2
 "Porina tetramera";2
-"Psathyrella nigeriensis ";2
+"Psathyrella nigeriensis";2
 "Pseudoacrodictys appendiculata";2
 "Pseudocercospora brideliae";2
 "Pseudocercospora cajanicola";2
@@ -2440,6 +2445,7 @@
 "Pyxine adamesii";2
 "Pyxine petricola";2
 "Pyxine richardsii";2
+"Racocetra africana";2
 "Ramaria sinsinii";2
 "Ravenelia leonensis";2
 "Repetophragma biseptatum";2
@@ -2458,10 +2464,12 @@
 "Russula albonigroides";2
 "Russula alveolata";2
 "Russula coffeata";2
-"Russula compacta";2
 "Russula fissurata";2
 "Russula oculata";2
+"Russula parasitica";2
 "Russula pectinata";2
+"Russula pruinata";2
+"Russula radicans";2
 "Russula rubroalba";2
 "Russula subfistulosa";2
 "Russula virescens";2
@@ -2476,6 +2484,7 @@
 "Sclerographiopsis dalbergiae";2
 "Sclerographium phyllanthicola";2
 "Scolecostigmina afzeliae";2
+"Scutellospora gregaria";2
 "Scutellospora nigra";2
 "Scytinostroma duriusculum";2
 "Selenophoma elaeidis";2
@@ -2511,7 +2520,6 @@
 "Sporopodium antoninianum";2
 "Sporopodium leprieurii";2
 "Sporopodium xantholeucum";2
-"Sporoschisma hemipsilum ";2
 "Stachybotrys echinatus";2
 "Stachybotrys microsporus";2
 "Stagonospora penniseti";2
@@ -2533,7 +2541,7 @@
 "Strigula subelegans";2
 "Strobilomyces echinatus";2
 "Subplenodomus apiicola";2
-"Suillus granulatus ";2
+"Suillus granulatus";2
 "Symphytocarpus flaccidus";2
 "Synalissa symphorea";2
 "Talaromyces flavus";2
@@ -2548,7 +2556,7 @@
 "Termitomyces striatus var. annulatus";2
 "Testicularia africana";2
 "Tetrameronycha bonaerensis";2
-"Thelephora terrestris ";2
+"Thelephora terrestris";2
 "Thelotrema fumosum";2
 "Thelotrema obturatum";2
 "Thermomyces ibadanensis";2
@@ -2577,12 +2585,11 @@
 "Trichoconis viridula";2
 "Trichoderma koningii";2
 "Trichoglossum hirsutum";2
-"Tricholoma atroviolaceum";2
 "Trichoscypha hindsii";2
 "Trichothelium africanum";2
 "Trichothyrium hansfordii";2
 "Tropicoporus linteus";2
-"Tubeufia aurantiella ";2
+"Tubeufia aurantiella";2
 "Tubifera ferruginosa";2
 "Tubosaeta heterosetosa";2
 "Tulostoma fusipes";2
@@ -2596,6 +2603,7 @@
 "Uredo geophilicola";2
 "Uredo kyllingae";2
 "Uredo newbouldiae";2
+"Uredo pieningii";2
 "Uredo trachyphrynii";2
 "Uredo vernoniicola";2
 "Uromyces aspiliellus";2
@@ -2603,10 +2611,8 @@
 "Uromyces illotus";2
 "Uromyces laevigatus";2
 "Uromyces panici-sanguinalis";2
-"Uromyces pieningii";2
 "Usnea contorta";2
 "Usnea gigas";2
-"Usnea implicata";2
 "Usnea leprosa";2
 "Usnea subleprosa";2
 "Ustilago bahuichivoensis";2
@@ -2644,7 +2650,7 @@
 "Absidia glauca";1
 "Acanthostoma reflexum";1
 "Acaulospora bireticulata";1
-"Acaulospora capsicula ";1
+"Acaulospora capsicula";1
 "Acaulospora cavernata";1
 "Acaulospora colossica";1
 "Acaulospora denticula";1
@@ -2711,8 +2717,7 @@
 "Amanita aureofloccosa";1
 "Amanita calabarica";1
 "Amanita congolensis";1
-"Amanita fulvopulverulenta";1
-"Amanita lanosa";1
+"Amanita griseofloccosa";1
 "Amanita virosa";1
 "Amauroderma africana";1
 "Ambispora appendicula";1
@@ -2737,7 +2742,7 @@
 "Anthracocystis grodzinskae";1
 "Anthracocystis mutabilis";1
 "Anthracocystis paspali-thunbergii";1
-"Anthracoidea heterospora ";1
+"Anthracoidea heterospora";1
 "Anthracothecium cinerosum";1
 "Anthracothecium guineense";1
 "Antrodia calceus ";1
@@ -2795,7 +2800,7 @@
 "Aspergillus quadrilineatus";1
 "Aspergillus sclerotiorum";1
 "Aspergillus sylvaticus";1
-"Aspergillus togoensis ";1
+"Aspergillus togoensis";1
 "Aspergillus violaceobrunneus";1
 "Aspergillus violaceofuscus";1
 "Asproinocybe russuloides";1
@@ -2865,8 +2870,6 @@
 "Biscogniauxia citriformis";1
 "Biscogniauxia pithodes";1
 "Bispora betulina";1
-"Bjerkandera adusta";1
-"Bjerkandera adusta ";1
 "Bjerkandera fumosa";1
 "Boeremia exigua";1
 "Boidinia borbonica";1
@@ -3002,7 +3005,7 @@
 "Circinella simplex";1
 "Circinella spinosa";1
 "Circinotrichum flagelliforme";1
-"Circinotrichum maculiforme ";1
+"Circinotrichum maculiforme";1
 "Cirsosia hughesii";1
 "Cladonia subvulcanica";1
 "Cladosporiella uredinicola";1
@@ -3017,8 +3020,6 @@
 "Clavariopsis bulbosa";1
 "Claviceps cynodontis";1
 "Clitocybe hydrophora";1
-"Clitocybe rivulosa";1
-"Clitocybe rivulosa ";1
 "Clitopilus orientalis";1
 "Clitopilus peri";1
 "Clitopilus togoensis";1
@@ -3057,7 +3058,7 @@
 "Collybia olivacea";1
 "Collybia syringea";1
 "Collybia viridis";1
-"Colus pusillus ";1
+"Colus pusillus";1
 "Comatricha laxa";1
 "Comatricha nigra";1
 "Compsosporiella deightonii";1
@@ -3069,7 +3070,7 @@
 "Conocybe mairei";1
 "Conoideocrella luteorostrata";1
 "Constricta africana";1
-"Coprinellus truncorum ";1
+"Coprinellus truncorum";1
 "Coprinopsis brunneofibrillosa";1
 "Coprinopsis picacea";1
 "Coprinus baumannii";1
@@ -3084,12 +3085,12 @@
 "Coriolopsis brunneoleuca";1
 "Coriolopsis byrsina";1
 "Coriolus expansus";1
-"Coriolus fischeri P. Henn. f. subresupinata";1
+"Coriolus fischeri f. subresupinata";1
 "Cortinarius violaceus";1
 "Corymbiglomus tortuosum";1
 "Corynespora inversa";1
 "Cosmospora arxii";1
-"Cosmospora flammea ";1
+"Cosmospora flammea";1
 "Craspedodidymum abigianense";1
 "Craterellus beninensis";1
 "Craterellus cornucopioides";1
@@ -3132,7 +3133,7 @@
 "Cylindrosporium kilimandscharicum";1
 "Cymatoderma elegans";1
 "Cyphella fulvodisca";1
-"Cystangium capitis-orae ";1
+"Cystangium capitis-orae";1
 "Cystoderma carcharias";1
 "Cytospora rhizophorae";1
 "Dactuliophora harrisii";1
@@ -3189,6 +3190,8 @@
 "Dimeromyces africanus";1
 "Dimeromyces sierrae-leonis";1
 "Dimidiographa longissima";1
+"Dimorphomyces diastaticus";1
+"Dimorphomyces pleomorphis";1
 "Dinemasporium asetulum";1
 "Dinemasporium fusiforme";1
 "Dioicomyces africanus";1
@@ -3245,8 +3248,6 @@
 "Enterobryus oxidi";1
 "Enterobryus oxydesmi";1
 "Enterobryus peridontopygei";1
-"Entoloma afrum";1
-"Entoloma afrum ";1
 "Entoloma alboroseum";1
 "Entoloma angustisporum";1
 "Entoloma applanatum";1
@@ -3311,7 +3312,6 @@
 "Erysiphe pisi";1
 "Erysiphe quercicola";1
 "Eugeniella micrommata";1
-"Eumitria baileyi";1
 "Eutypa erumpens";1
 "Eutypa microspora";1
 "Eutypella heveae";1
@@ -3369,9 +3369,9 @@
 "Fusarium pseudonygamai";1
 "Fusarium solani f.sp. phaseoli";1
 "Fusarium tasmanicum ";1
-"Fusarium xylarioides ";1
+"Fusarium xylarioides";1
 "Fuscoporia ferruginosa";1
-"Fuscutata heterogama ";1
+"Fuscutata heterogama";1
 "Fusicladium butyrospermi";1
 "Fusicolla merismoides";1
 "Galerella nigeriensis";1
@@ -3389,7 +3389,6 @@
 "Gibbera anthonothae";1
 "Gibberella sacchari";1
 "Gigaspora alboaurantiaca";1
-"Gigaspora sp. ";1
 "Gliocladiopsis tenuis";1
 "Gliomastix roseogrisea";1
 "Globisporangium splendens";1
@@ -3440,7 +3439,7 @@
 "Gymnoascopsis viennotii";1
 "Gymnopilus aculeatus";1
 "Gymnopilus njalaensis";1
-"Gymnopilus penetrans ";1
+"Gymnopilus penetrans";1
 "Gymnopilus purpuratus";1
 "Gymnopus confluens";1
 "Gymnopus diminutus";1
@@ -3486,7 +3485,6 @@
 "Hemibeltrania cymbiformis";1
 "Hemibeltrania laxa";1
 "Hemigrapha tenellula";1
-"Hemileia buntingii";1
 "Hemileia chlorocodonis";1
 "Hemileia rauvolfiae";1
 "Hemimycena brevispora";1
@@ -3507,7 +3505,7 @@
 "Hexagonia aculeata";1
 "Hexagonia cucullata";1
 "Hexagonia cyclospora f. major";1
-"Hexagonia hydnoides ";1
+"Hexagonia hydnoides";1
 "Hexagonia pobeguini";1
 "Hexagonia sacleuxii";1
 "Hirneola auriformis";1
@@ -3548,7 +3546,7 @@
 "Hypholoma talbotiae";1
 "Hypocrella africana";1
 "Hypocrella sphaeroidea";1
-"Hypocrella vilis ";1
+"Hypocrella vilis";1
 "Hypoxylon anthochroum";1
 "Hypoxylon buettneri";1
 "Hypoxylon lophirae";1
@@ -3585,7 +3583,7 @@
 "Kuehneola butleri";1
 "Kylindria keitae";1
 "Laboulbenia afra";1
-"Laboulbenia afrogyri ";1
+"Laboulbenia afrogyri";1
 "Laboulbenia anoplogenii";1
 "Laboulbenia axinotomae";1
 "Laboulbenia balazucii";1
@@ -3628,10 +3626,9 @@
 "Laboulbenia vitielloi";1
 "Lachnocladium schweinfurthianum";1
 "Lactarius griseogalus";1
-"Lactifluus acrissimus ";1
+"Lactifluus acrissimus";1
 "Lactifluus annulatolongisporus";1
 "Lactifluus brunneocarpus";1
-"Lactifluus brunnescens";1
 "Lactifluus latifolius";1
 "Lactifluus rufomarginatus";1
 "Lactifluus togoensis";1
@@ -3657,7 +3654,6 @@
 "Lecidea nigeriensis";1
 "Lecidea tenuis";1
 "Leiosphaerella leonensis";1
-"Leiotrametes flavida";1
 "Lembosia psorospermi";1
 "Lembosia vismiae";1
 "Lembosiella polyspora";1
@@ -3705,7 +3701,7 @@
 "Lomachashaka cynodontis";1
 "Lopadium elliottii";1
 "Lycoperdon ashantiense";1
-"Lycoperdon endotephrum ";1
+"Lycoperdon endotephrum";1
 "Lycoperdon hiemale";1
 "Lycoperdon longicaudum";1
 "Lycoperdon perlatum";1
@@ -3771,8 +3767,6 @@
 "Melanocarpus oblatus";1
 "Melanospora pampeana";1
 "Melanotheca nigeriensis";1
-"Meliola achyrospermi";1
-"Meliola achyrospermi ";1
 "Meliola ambigua";1
 "Meliola amphigena";1
 "Meliola anthospermi";1
@@ -3789,10 +3783,7 @@
 "Meliola mangiferae";1
 "Meliola micropoda";1
 "Meliola perpusilla";1
-"Meliola phyllanthicola";1
-"Meliola phyllanthicola ";1
 "Meliola piperina";1
-"Meliola pleioceratis";1
 "Meliola sakawensis";1
 "Meliola salaciae";1
 "Meliola sansevieriae";1
@@ -3817,13 +3808,8 @@
 "Microcyclus placodisci";1
 "Microdochium phyllanthi";1
 "Microdothella piriformis";1
-"Microporellus ellipsosporus";1
-"Microporellus ellipsosporus ";1
 "Microporellus obovatus";1
-"Microporus sp. ";1
 "Micropsalliota brunneosperma";1
-"Micropsalliota elata";1
-"Micropsalliota elata ";1
 "Microsporum gypseum";1
 "Microthyriella lophirae";1
 "Minimidochium crepuscolare";1
@@ -3937,7 +3923,7 @@
 "Oxydothis elaeidicola";1
 "Padixonia bispora";1
 "Panaeolus bisporus";1
-"Panaeolus cyanescens ";1
+"Panaeolus cyanescens";1
 "Panaeolus fimicola";1
 "Panaeolus semiovatus";1
 "Panus caespiticola";1
@@ -4005,7 +3991,6 @@
 "Penicillium implicatum";1
 "Penicillium javanicum";1
 "Penicillium lagena";1
-"Penicillium mutant";1
 "Penicillium oxalicum";1
 "Penicillium roseopurpureum";1
 "Penicillium solitum";1
@@ -4087,6 +4072,7 @@
 "Phyllogaster pholiotoides";1
 "Phylloporia ribis";1
 "Phylloporus rhodophaeus";1
+"Phylloporus rhodoxanthus";1
 "Phyllosticta bougainvilleae";1
 "Phyllosticta camoensis";1
 "Phyllosticta coffeicida";1
@@ -4132,7 +4118,7 @@
 "Physma byrsinum";1
 "Phytophthora meadii";1
 "Pilidium lythri";1
-"Pisolithus albus ";1
+"Pisolithus albus";1
 "Placodium zahlbruckneri";1
 "Planticonsortium tenue";1
 "Plasmopara calaminthae";1
@@ -4155,7 +4141,6 @@
 "Podosordaria aristata";1
 "Podosphaera pannosa";1
 "Podospora setosa";1
-"Podosporium sp. ";1
 "Polyblastidium japonicum";1
 "Polyblastiopsis linearis";1
 "Polyblastiopsis pyriformis";1
@@ -4289,7 +4274,7 @@
 "Puccinia romagnoliana";1
 "Puccinia ruelliae";1
 "Puccinia scleriae";1
-"Puccinia setariae ";1
+"Puccinia setariae";1
 "Puccinia stylosanthis";1
 "Puccinia synedrellae";1
 "Puccinia thaliae";1
@@ -4318,7 +4303,6 @@
 "Pyxine obscurascens";1
 "Pyxine retirugella";1
 "Pyxine sorediata";1
-"Racocetra africana";1
 "Racocetra beninensis";1
 "Racoleus trichophorus";1
 "Ramalina dendriscoides var. subnuda";1
@@ -4341,6 +4325,7 @@
 "Relicina malaccensis";1
 "Remotididymella destructiva";1
 "Resinicium bicolor";1
+"Retiboletus griseus";1
 "Retiboletus nigerrimus";1
 "Rhabdospora avicenniae";1
 "Rhachomyces alluaudii";1
@@ -4354,7 +4339,7 @@
 "Rhizomyces gracilis";1
 "Rhizophagus diaphanus";1
 "Rhizophagus irregularis";1
-"Rhizopogon luteolus ";1
+"Rhizopogon luteolus";1
 "Rhodocollybia butyracea";1
 "Rhodophana flavipes";1
 "Rhodophyllus aripoanus var. africus";1
@@ -4380,12 +4365,9 @@
 "Russula hiemisilvae";1
 "Russula ingens";1
 "Russula nobilis";1
-"Russula parasitica";1
 "Russula parvulospora";1
 "Russula phaeocephala";1
-"Russula pruinata";1
 "Russula purpureomutabilis";1
-"Russula radicans";1
 "Russula roseostriata";1
 "Russula roseovelata";1
 "Russula roseoviolacea";1
@@ -4410,12 +4392,11 @@
 "Scolecopeltidium guineense";1
 "Scopulariopsis ivorensis";1
 "Scopulariopsis parva";1
-"Scorias brasiliensis ";1
+"Scorias brasiliensis";1
 "Scutellospora aurigloba";1
 "Scutellospora coralloidea";1
 "Scutellospora fulgida";1
 "Scutellospora heterogama";1
-"Scutellospora sp. ";1
 "Scutopeltis alafiae";1
 "Scytinostroma africanogalactinum";1
 "Scytinostroma renisporum";1
@@ -4461,10 +4442,9 @@
 "Sporisorium anthephorae";1
 "Sporisorium fastigiatum";1
 "Sporisorium flagellatum";1
-"Sporisorium ischaemi ";1
+"Sporisorium ischaemi";1
 "Sporisorium ischaemicola";1
 "Sporopodium podosphaera";1
-"Sporoschisma hemipsilum";1
 "Sporothrix curviconia";1
 "Sporothrix echinospora";1
 "Sporothrix ghanensis";1
@@ -4523,7 +4503,7 @@
 "Talekpea foeticia";1
 "Teichosporella pachyasca";1
 "Teratomyces mirificus";1
-"Termitomyces bulborhizus ";1
+"Termitomyces bulborhizus";1
 "Termitomyces congolensis";1
 "Termitomyces schimperi f. lactifluus";1
 "Termitomyces singidensis";1
@@ -4544,6 +4524,7 @@
 "Thyridaria leonensis";1
 "Tinctoporellus epimiltinus";1
 "Titaeopsis ugandae";1
+"Tolyposporella eriocauli";1
 "Tomentella africana";1
 "Tomentella afrostuposa";1
 "Tomentella agbassaensis";1
@@ -4566,6 +4547,7 @@
 "Trametes discolor";1
 "Trametes ellisiana";1
 "Trametes expallens";1
+"Trametes flavida";1
 "Trametes heterospora";1
 "Trametes hunteri";1
 "Trametes variegata";1
@@ -4618,7 +4600,7 @@
 "Tubaria furfuracea";1
 "Tubosaeta goossensiae";1
 "Tulostoma chudaei";1
-"Tulostoma evanescens ";1
+"Tulostoma evanescens";1
 "Tulostoma exasperatum";1
 "Tulostoma nanum";1
 "Tulostoma obesum";1
@@ -4628,7 +4610,6 @@
 "Tulostoma volvulatum";1
 "Tylophoron ascidioides";1
 "Tylopilus cellulosus";1
-"Tylopilus griseus";1
 "Tylopilus niger";1
 "Unguiculella caespitosa";1
 "Uraecium carpodini";1
@@ -4645,7 +4626,7 @@
 "Uredo entandophragmae";1
 "Uredo erythrinae";1
 "Uredo eulophiae";1
-"Uredo famelica ";1
+"Uredo famelica";1
 "Uredo geophiliana";1
 "Uredo harunganae";1
 "Uredo hypoestis";1
@@ -4653,9 +4634,7 @@
 "Uredo leersiae";1
 "Uredo maschalocephali";1
 "Uredo melinidis";1
-"Uredo philippinensis ";1
-"Uredo pieningii";1
-"Uredo pieningii ";1
+"Uredo philippinensis";1
 "Uredo psorospermi";1
 "Uredo pycreicola";1
 "Uredo trichomoides";1
@@ -4672,7 +4651,6 @@
 "Uromyces hobsonii";1
 "Uromyces occidentalis";1
 "Uromyces pazschkeanus";1
-"Uromyces pieningii ";1
 "Uromyces rhinacanthi";1
 "Uromyces scleriae";1
 "Uromyces stylochitonis";1
@@ -4688,7 +4666,7 @@
 "Usnea torrida";1
 "Ustilago dactylidicola";1
 "Ustilago oplismeni";1
-"Ustilago rickeri ";1
+"Ustilago rickeri";1
 "Ustilago schlechteri";1
 "Ustilago trichophora";1
 "Vanderystiella leopoldvilleana";1
@@ -4734,7 +4712,7 @@
 "Xylaria laevis";1
 "Xylaria maitlandii";1
 "Xylaria multiplex";1
-"Xylaria nigrescens ";1
+"Xylaria nigrescens";1
 "Xylaria obtusissima";1
 "Xylaria obtusissima var. togoensis";1
 "Xylaria radicata";1

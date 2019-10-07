@@ -162,8 +162,10 @@
 "Asteridiella bersamae" TRUE
 "Asteridiella capparis" TRUE
 "Asteridiella combreti" TRUE
+"Asteridiella cyclopoda" TRUE
 "Asteridiella deightonii" TRUE
 "Asteridiella diospyricola" TRUE
+"Asteridiella entebbeensis" TRUE
 "Asteridiella fici" TRUE
 "Asteridiella glabra" TRUE
 "Asteridiella hansfordii" TRUE
@@ -345,6 +347,7 @@
 "Chionomyces chorleyi" TRUE
 "Chionomyces sclerochitonis" TRUE
 "Chlorophyllum globosum" TRUE
+"Chlorophyllum molybdites" TRUE
 "Chlorophyllum palaeotropicum" TRUE
 "Chlorophyllum rachodes" TRUE
 "Choanephora cucurbitarum" TRUE
@@ -449,6 +452,7 @@
 "Cyberlindnera subsufficiens" TRUE
 "Cylindrocarpon macrosporum" TRUE
 "Cymatoderma elegans" TRUE
+"Cystangium capitis-orae" TRUE
 "Cytospora rhizophorae" TRUE
 "Dacryopinax spathularia" TRUE
 "Dactuliophora tarrii" TRUE
@@ -559,6 +563,7 @@
 "Fusarium pseudocircinatum" TRUE
 "Fusarium pseudonygamai" TRUE
 "Fusarium roseum" TRUE
+"Fusarium xylarioides" TRUE
 "Gaeumannomyces graminis" TRUE
 "Ganoderma applanatum" TRUE
 "Ganoderma australe" TRUE
@@ -631,6 +636,7 @@
 "Helminthosporium coffeae" TRUE
 "Hemibeltrania cinnamomi" TRUE
 "Hemileia deightonii" TRUE
+"Hemileia dioscoreae-aculeatae" TRUE
 "Hemileia rauvolfiae" TRUE
 "Hemileia ruspoliae" TRUE
 "Hemileia scholzii" TRUE
@@ -648,6 +654,7 @@
 "Hexagonia crinigera" TRUE
 "Hexagonia cucullata" TRUE
 "Hexagonia discopoda" TRUE
+"Hexagonia hydnoides" TRUE
 "Hexagonia tenuis" TRUE
 "Hiospira hendrickxii" TRUE
 "Hirneola floccosa" TRUE
@@ -658,6 +665,7 @@
 "Humicola alopallonella" TRUE
 "Humicola fuscoatra" TRUE
 "Huntiella moniliformis" TRUE
+"Hyalosphaera pulchella" TRUE
 "Hydea pygmea" TRUE
 "Hydropus africanus" TRUE
 "Hygrocybe conica" TRUE
@@ -665,6 +673,7 @@
 "Hyperphyscia syncolla" TRUE
 "Hypholoma murinacea" TRUE
 "Hypocreopsis macrostoma" TRUE
+"Hypoxylon asperatum" TRUE
 "Hypoxylon haematostroma" TRUE
 "Hypoxylon rubiginosum" TRUE
 "Hypoxylon sclerophaeum" TRUE
@@ -709,6 +718,7 @@
 "Lactarius saponaceus" TRUE
 "Lactarius subbaliophaeus" TRUE
 "Lactarius tenellus" TRUE
+"Lactifluus acrissimus" TRUE
 "Lactifluus albomembranaceus" TRUE
 "Lactifluus annulatoangustifolius" TRUE
 "Lactifluus aurantiifolius" TRUE
@@ -1031,6 +1041,7 @@
 "Pestalotiopsis owenii" TRUE
 "Pestalotiopsis palmarum" TRUE
 "Pestalotiopsis papposa" TRUE
+"Pestalotiopsis versicolor" TRUE
 "Phaeoclavulina tropicalis" TRUE
 "Phaeodaedalea incerta" TRUE
 "Phaeodimeriella parvula" TRUE
@@ -1147,6 +1158,7 @@
 "Puccinia polysora" TRUE
 "Puccinia subtegulanea" TRUE
 "Puccinia versicolor" TRUE
+"Pucciniosira anthocleistae" TRUE
 "Pucciniosira mitragynae" TRUE
 "Pulchromyces fimicola" TRUE
 "Pulveroboletus luteocarneus" TRUE
@@ -1177,6 +1189,7 @@
 "Repetophragma terminaliae" TRUE
 "Rhizomucor pusillus" TRUE
 "Rhizopus arrhizus" TRUE
+"Rhopalostroma angolense" TRUE
 "Rhytidhysteron rufulum" TRUE
 "Rigidoporus microporus" TRUE
 "Russula albonigroides" TRUE
@@ -1269,6 +1282,7 @@
 "Strigula phyllogena" TRUE
 "Strigula smaragdula" TRUE
 "Strobilomyces echinatus" TRUE
+"Suillus granulatus" TRUE
 "Syncephalastrum racemosum" TRUE
 "Syncephalis nana" TRUE
 "Synchytrium dolichi" TRUE
@@ -1315,6 +1329,7 @@
 "Trametes elegans" TRUE
 "Trametes ellisiana" TRUE
 "Trametes expallens" TRUE
+"Trametes flavida" TRUE
 "Trametes hirsuta" TRUE
 "Trametes hirta" TRUE
 "Trametes leonina" TRUE
@@ -1514,9 +1529,7 @@
 "Aspergillus tubingensis" FALSE
 "Aspidella aureofloccosa" FALSE
 "Asteridiella antidesmatis" FALSE
-"Asteridiella cyclopoda" FALSE
 "Asteridiella ekebergiae" FALSE
-"Asteridiella entebbeensis" FALSE
 "Asteridiella lagunculariae" FALSE
 "Asteridiella symphoniae" FALSE
 "Asteridiella thunbergiae" FALSE
@@ -1616,7 +1629,6 @@
 "Chamonixia caespitosa" FALSE
 "Chiodecton album" FALSE
 "Chiodecton natalense" FALSE
-"Chlorophyllum molybdites" FALSE
 "Cintractia seymouriana" FALSE
 "Circinella muscae" FALSE
 "Cladia aggregata" FALSE
@@ -1687,7 +1699,6 @@
 "Cylindrocarpon musae" FALSE
 "Cymatoderma infundibuliforme" FALSE
 "Cyptotrama asprata" FALSE
-"Cystangium capitis-orae" FALSE
 "Cytidia pezizoides" FALSE
 "Cytosporina strongylodontis" FALSE
 "Dactuliophora harrisiae" FALSE
@@ -1752,7 +1763,6 @@
 "Fusarium solaris" FALSE
 "Fusarium stilboides" FALSE
 "Fusarium sulphureum" FALSE
-"Fusarium xylarioides" FALSE
 "Fuscoporia contigua" FALSE
 "Fuscoporia discipes" FALSE
 "Fusicolla aquaeductuum" FALSE
@@ -1820,7 +1830,6 @@
 "Hemiglossum congolense" FALSE
 "Hemileccinum impolitum" FALSE
 "Hemileia coffeicola" FALSE
-"Hemileia dioscoreae-aculeatae" FALSE
 "Hemileia smallii" FALSE
 "Herpotrichia millettiae" FALSE
 "Heterobasidion annosum" FALSE
@@ -1832,7 +1841,6 @@
 "Heterodermia japonica" FALSE
 "Heterodermia obscurata" FALSE
 "Heterodermia squamulosa" FALSE
-"Hexagonia hydnoides" FALSE
 "Hexagonia pobequinii" FALSE
 "Histoplasma duboisii" FALSE
 "Hohenbuehelia aurantiocystis" FALSE
@@ -1841,7 +1849,6 @@
 "Hortiboletus rubellus" FALSE
 "Humicola grisea" FALSE
 "Humicola insolens" FALSE
-"Hyalosphaera pulchella" FALSE
 "Hydropus paraensis" FALSE
 "Hygrocybe coccineocrenata" FALSE
 "Hymenagaricus canoruber" FALSE
@@ -1858,7 +1865,6 @@
 "Hypotrachyna neodissecta" FALSE
 "Hypotrachyna pseudosinuosa" FALSE
 "Hypotrachyna sublaevigata" FALSE
-"Hypoxylon asperatum" FALSE
 "Hypoxylon duranii" FALSE
 "Hypoxylon hypomiltum" FALSE
 "Hypoxylon investiens" FALSE
@@ -1893,7 +1899,6 @@
 "Lactarius tabidus" FALSE
 "Lactarius tesquorum" FALSE
 "Lactarius vellereus" FALSE
-"Lactifluus acrissimus" FALSE
 "Lactifluus luteolus" FALSE
 "Lactifluus pseudotorminosus" FALSE
 "Lactifluus pseudovolemus" FALSE
@@ -2090,7 +2095,6 @@
 "Pestalotia vaccinii" FALSE
 "Pestalotiopsis mayumbensis" FALSE
 "Pestalotiopsis paeoniae" FALSE
-"Pestalotiopsis versicolor" FALSE
 "Phaeaspis nervicola" FALSE
 "Phaeobotrys nigeriensis" FALSE
 "Phaeographina alata" FALSE
@@ -2193,7 +2197,6 @@
 "Puccinia scirpi-grossi" FALSE
 "Puccinia tetuanensis" FALSE
 "Puccinia variabilis" FALSE
-"Pucciniosira anthocleistae" FALSE
 "Pulveroboletus bembae" FALSE
 "Purpureocillium lavendulum" FALSE
 "Pyrenula concatervans" FALSE
@@ -2224,7 +2227,6 @@
 "Reticularia splendens" FALSE
 "Rhinocladiella similis" FALSE
 "Rhizoctonia oryzae-sativae" FALSE
-"Rhopalostroma angolense" FALSE
 "Riccia intermedia" FALSE
 "Riccia parisiana" FALSE
 "Rigidoporus lineatus" FALSE
@@ -2282,7 +2284,6 @@
 "Strigula elegans" FALSE
 "Strobilomyces foveatus" FALSE
 "Suillellus dupainii" FALSE
-"Suillus granulatus" FALSE
 "Synchytrium aecidioides" FALSE
 "Taeniolella stilbospora" FALSE
 "Talaromyces aculeatus" FALSE
@@ -2314,7 +2315,6 @@
 "Tirmania nivea" FALSE
 "Tirmania pinoyi" FALSE
 "Trametes emarginata" FALSE
-"Trametes flavida" FALSE
 "Trametes gibbosa" FALSE
 "Trametes occidentalis" FALSE
 "Trametes pavonia" FALSE
