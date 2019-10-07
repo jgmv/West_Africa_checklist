@@ -608,7 +608,8 @@ plot_accumulation_curves <- function(data) {
   points(max(ref_accum$sites), max(summary(ref_est)$boot[,"Bootstrap"]),
     col = lcol, pch = 16)
   lines(summary(ref_est)$chao[,"Chao"], col = lcol, lty = 6)
-  points(max(ref_accum$sites), max(summary(ref_est)$chao[,"Chao"]),
+  points(max(ref_accum$sites),
+    summary(ref_est)$chao[, "Chao"][nrow(summary(ref_est)$chao)],
     col = lcol, pch = 16)
   axis(1, lwd = 0, lwd.tick = 1, tck = -0.05)
   axis(1, at = c(par("usr")[1], par("usr")[2]), lwd = 1, lwd.tick = 0,
@@ -765,7 +766,7 @@ plot_records_per_time <- function(data) {
     c(sp_year$cummulative, 0), col = gray(0.75), border = NA)
   polygon(c(sp_year$year, sp_year$year[length(sp_year$year)]),
     c(sp_year$new_sp, 0), col = "#d35f5f", border = NA)
-  points(sp_year$species ~ sp_year$year, type = "h", col = 1)
+  #points(sp_year$species ~ sp_year$year, type = "h", col = 1)
   axis(1, lwd = 0, lwd.tick = 1)
   axis(1, at = c(par("usr")[1], par("usr")[2]), lwd = 1, lwd.tick = 0,
     label = NA)
