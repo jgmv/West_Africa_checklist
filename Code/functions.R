@@ -90,7 +90,8 @@ plot_map <- function(data = data) {
   require(maps)
   
   # plot map with countries
-  pdf("Output/West_Africa_map.pdf", w = 6, h = 6, pointsize = 14)
+  pdf("Output/West_Africa_map.pdf", w = 6, h = 6, pointsize = 14, 
+    useDingbats = F)
   map("world", xlim = c(-20, 54), ylim = c(-38, 40), boundary = F, interior = F,
     fill = T, col = "white", lty = 0, wrap = T)
   polygon(c(par("usr")[1], rep(par("usr")[2], 2), rep(par("usr")[1], 2)),
@@ -270,7 +271,8 @@ plot_study_motivation <- function(data) {
   study_motiv$year <- trimws(study_motiv$year)
   study_motiv$year <- as.numeric(study_motiv$year)
   
-  pdf("Output/study_motivation_study.pdf", w = 5, h = 4, pointsize = 14)
+  pdf("Output/study_motivation_study.pdf", w = 5, h = 4, pointsize = 14,
+    useDingbats = F)
   par(xpd = F, mar = c(4, 4, 1, 1), tck = -0.025, mgp = c(3, 0.6, 0.6))
   years <- as.numeric(data$year)
   plot(1, 1, type = "n", ylim = c(min(years), max(years)), xlim = c(0.5, 4.5),
@@ -337,7 +339,8 @@ plot_rank_abundance <- function(data, n_labels = 5) {
     pt_col <- col_ecology[ecol]    
   }
   
-  pdf("Output/rank_abundance.pdf", w = 7, h = 3, pointsize = 14)
+  pdf("Output/rank_abundance.pdf", w = 7, h = 3, pointsize = 14,
+    useDingbats = F)
   par(xpd = F, mar = c(4, 4, 1, 1), tck = -0.025, mgp = c(3, 0.6, 0.6))
   plot(x, log = "x", axes = F, ylab = "Number of records",
     xlab = "Species rank", type = "n", cex = 1.5)
@@ -491,7 +494,8 @@ diversity_per_country <- function(data) {
   bp <- as.matrix(bp)
   
   bcol <- c("#2c5aa0", "#d7e3f4")
-  pdf("Output/estimations_vs_known.pdf", w = 8, h = 3.5, pointsize = 14)
+  pdf("Output/estimations_vs_known.pdf", w = 8, h = 3.5, pointsize = 14,
+    useDingbats = F)
   par(mar = c(8, 4, 1, 7), xpd = T, tck = -0.025, mgp = c(3, 0.6, 0.6))
   x <- barplot(t(bp), border = NA, ylab = NA, width = c(2, rep(1, 14)),
     space = c(0.2, 0.4, rep(0.2, 13)), col = bcol, axes = F,
@@ -693,7 +697,8 @@ prepare_authors_data <- function(data,
 
 ### plot author publications ---------------------------------------------------
 plot_author_publications <- function(authors_data = authors_data) {  
-  pdf("Output/author_publications.pdf", w = 5, h = 4, pointsize = 14)
+  pdf("Output/author_publications.pdf", w = 5, h = 4, pointsize = 14,
+    useDingbats = F)
   par(xpd = F, mar = c(4, 4, 1, 1), tck = -0.025, mgp = c(3, 0.6, 0.6))
   plot(1, 1, type = "n",
     ylim = c(min(authors_data$first), max(authors_data$last)), 
@@ -757,7 +762,8 @@ plot_records_per_time <- function(data) {
   sp_year$new_sp <- rowSums(apply(sp_x_year, 2, function(x) new_sp(x)))
   rm(new_sp)
   
-  pdf("Output/records_x_year.pdf", w = 6, h = 3, pointsize = 14)
+  pdf("Output/records_x_year.pdf", w = 6, h = 3, pointsize = 14,
+    useDingbats = F)
   par(mar = c(4, 4, 1, 1), tck = -0.025, mgp = c(3, 0.6, 0.6))
   plot(sp_year$cummulative ~ sp_year$year, type = "s", ylab = "n",
     xlab = "Year", axes = F, col = NA)
@@ -816,7 +822,8 @@ species_ecology <- function(data) {
   sp_x_ecology <- sp_x_ecology[c(1:(unk - 1),
     (unk + 1):length(sp_x_ecology), unk)] 
   col_ecology <- color(length(sp_x_ecology))
-  pdf("Output/sp_x_ecology.pdf", h = 3, w = 6, pointsize = 14)
+  pdf("Output/sp_x_ecology.pdf", h = 3, w = 6, pointsize = 14,
+    useDingbats = F)
   par(mar = rep(2, 4), mfrow = c(1, 2))
   pie(sp_x_ecology, labels = NA, col = col_ecology, border = "white")
   par(mar = rep(0, 4))
@@ -830,7 +837,7 @@ species_ecology <- function(data) {
 ### summary of lichen substrata ------------------------------------------------
 lichen_substrata <- function(data) {
   lichen <- data[data$ecology == "lichenized", "substrate"]
-  lichen <- droplevels(lichen)
+  #lichen <- droplevels(lichen)
   lichen <- as.character(lichen)
   for(i in grep(",", lichen)) {
     x <- unlist(strsplit(lichen[i], ", "))
@@ -849,7 +856,8 @@ lichen_substrata <- function(data) {
     col.names = NA, row.names = T, sep = ";")
   
   col_lichen <- color(nrow(tab), start = 55)
-  pdf("Output/lichen_substrata.pdf", h = 3, w = 6, pointsize = 14)
+  pdf("Output/lichen_substrata.pdf", h = 3, w = 6, pointsize = 14,
+    useDingbats = F)
   par(mar = rep(2, 4), mfrow = c(1, 2))
   pie(tab$records, labels = NA, col = col_lichen, border = "white")
   par(mar = rep(0, 4))
@@ -875,7 +883,8 @@ gbif_comparison <- function(data, file = "Data/GBIF_records.csv") {
   message(paste("Species only in GBIF", c))
   message(paste("Species in both", b))
   
-  pdf("Output/GBIF_comparisons.pdf", w = 4, h = 3, pointsize = 14)
+  pdf("Output/GBIF_comparisons.pdf", w = 4, h = 3, pointsize = 14,
+    useDingbats = F)
   par(mar = rep(0, 4), mfrow = c(1, 2))
   pie(c(a, b, c), col = c(gray(0.9), 1, gray(0.7)), border = F, labels = NA)
   par(mar = rep(0, 4))
@@ -973,7 +982,8 @@ mantel_correlogram <- function(data, country, dist_method = "jacc") {
   mantel_test <- mantel(bio_dist, geo_dist)
   mantel_correlog <- mantel.correlog(bio_dist, geo_dist)
 
-  pdf("Output/mantel_correlogram.pdf", h = 3, w = 4)
+  pdf("Output/mantel_correlogram.pdf", h = 3, w = 4,
+    useDingbats = F)
   par(mar = c(4, 4, 2, 1), lwd = 1.5, xpd = T)
   plot_mantel(mantel_correlog, type = "o", col1 = "white", cex = 1.5)
   mtext(paste0("R = ", round(mantel_test$statistic, 2), ", P = ",
