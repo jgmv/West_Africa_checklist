@@ -1,417 +1,430 @@
-"";"n";"first";"last";"origin"
-"Adandonon";2;2004;2014;"African"
-"Antonin";8;1998;2013;"European"
-"Badou";1;2018;2018;"African"
-"Beed";1;2011;2011;"African"
-"Boa";1;2004;2004;"European"
-"Boni";1;2015;2015;"African"
-"Bridge";1;1997;1997;"European"
-"Buyck";4;1993;2008;"European"
-"Carvajal-Campos";1;2017;2017;"European"
-"Chevaugeon";7;1950;1956;"European"
-"Christan";1;2009;2009;"European"
-"Codjia";1;2014;2014;"African"
-"Crous";3;2003;2016;"European"
-"Cruz-Laufer";1;2019;2019;"European"
-"de Crop";1;2016;2016;"European"
-"de Kesel";4;2002;2016;"European"
-"Denchev";3;2014;2016;"European"
-"Dring DM";4;1964;1980;"European"
-"Driver";1;2000;2000;"other"
-"Ellis";16;1957;1976;"European"
-"Ertz";2;2008;2009;"European"
-"Evans";4;1974;2010;"European"
-"Eyi Ndong";1;2011;2011;"African"
-"Fandohan";1;2005;2005;"African"
-"Ge";1;2018;2018;"other"
-"Hansford";13;1945;1966;"European"
-"Hariot";2;1904;1910;"European"
-"Hell";1;2009;2009;"European"
-"Houssou";1;2009;2009;"African"
-"Ihayere";1;2010;2010;"African"
-"Jeger";1;1998;1998;"European"
-"Johnson JM";2;2013;2015;"African"
-"Kreisel";2;1967;2001;"European"
-"Lenne ";1;1990;1990;NA
-"Maba";4;2014;2015;"African"
-"Manier";3;1972;1974;"European"
-"Marley";1;2002;2002;"other"
-"Mbogne";1;2015;2015;"African"
-"Meswaet";1;2019;2019;"African"
-"Oehl";2;2011;2014;"European"
-"Olou";1;2019;2019;"African"
-"Osemwegie";7;2002;2014;"African"
-"Paris";1;1902;1902;"European"
-"Pegler";9;1966;1992;"European"
-"Piatek";5;2014;2018;"European"
-"present publication";1;2019;2019;"European"
-"Roger L";2;1951;1953;"European"
-"Shah";1;1994;1994;"African"
-"Sikirou";1;2015;2015;"African"
-"Tchabi";3;2008;2009;"African"
-"Turner PD";1;1971;1971;"European"
-"van Rooij";1;2003;2003;"European"
-"Verbeken";3;1995;2010;"European"
-"Wendt";1;2017;2017;"European"
-"Yaninek";1;1996;1996;"African"
-"Yorou";13;2001;2014;"African"
-"Zhao";1;2011;2011;"other"
-"Ba";4;2000;2012;"European"
-"Couch";1;1985;1985;"European"
-"Crouch";1;2014;2014;"other"
-"Damm";2;2009;2014;"European"
-"Diedhiou";2;2004;2005;"African"
-"Du";1;2005;2005;"other"
-"Ellison";1;2015;2015;"European"
-"Ferreira";1;2018;2018;"other"
-"Gardt";1;2011;2011;"European"
-"Guissou";3;2005;2015;"African"
-"Hama";4;2008;2012;"African"
-"Holden";1;1970;1970;"European"
-"Kane";2;2013;2013;"African"
-"Kini";1;2002;2002;"other"
-"Klaubauf";1;2014;2014;"European"
-"Millogo";1;2004;2004;"African"
-"Ouoba";1;2015;2015;NA
-"Patouillard";5;1889;1912;"European"
-"Paul";1;2015;2015;"other"
-"Raboin";1;2007;2007;"European"
-"Rammeloo";3;1978;1993;"European"
-"Richardson";1;1990;1990;"European"
-"Sanon E";1;2014;2014;"African"
-"Sanon KB";4;1997;2009;"African"
-"Sawadogo";1;1990;1990;NA
-"Sere";1;2007;2007;"African"
-"Simmons";2;2000;2007;"other"
-"Thomas MD";2;1985;1991;"European"
-"Thouvenel";1;1980;1980;"African"
-"Vanky";5;1997;2011;"European"
-"von Arx";3;1965;1987;"European"
-"Woudenberg";1;2013;2013;"European"
-"Wulff";1;2010;2010;"European"
-"Zida";1;2008;2008;"African"
-"Aptroot";2;1995;2001;"European"
-"Asaolu";1;2012;2012;"African"
-"Brady";3;1980;1986;"European"
-"Deighton";22;1936;1990;"European"
-"Gilman";1;1969;1969;"European"
-"Haerkoenen";2;1981;1993;"European"
-"Lenne";1;1989;1989;"European"
-"Lubbe";1;2004;2004;"other"
-"Penney";2;2009;2012;"European"
-"Seifert";1;1985;1985;"European"
-"Shen";1;2001;2001;"other"
-"Sivanesan";12;1970;1987;"other"
-"Sutton";9;1963;1980;"other"
-"Wakefield AE";1;1990;1990;"European"
-"Adeniji";1;1970;1970;"African"
-"Alcorn";1;1990;1990;"other"
-"Amano";1;1986;1986;"other"
-"Appiah";1;2003;2003;"European"
-"Arvidsson";1;1982;1982;"European"
-"Ayesu-Offei";1;1989;1989;"African"
-"Barreto";1;1998;1998;"other"
-"Batista";5;1957;1960;"other"
-"Blomme";1;2013;2013;"African"
-"Boamponsem";1;2010;2010;"African"
-"Braun";1;2012;2012;"European"
-"Cannon";1;1991;1991;"European"
-"Cassini";1;1966;1966;"European"
-"Chen AJ";1;2016;2016;"other"
-"Chupp";1;1954;1954;"other"
-"Cummins";7;1939;1960;"other"
-"Dade";1;1940;1940;"European"
-"Danquah";1;1975;1975;"European"
-"de Hoog";1;1974;1974;"European"
-"Degelius";1;1974;1974;"European"
-"Dennis";6;1950;1988;"European"
-"Dickinson";1;1968;1968;"European"
-"Dixon";2;1959;1959;"European"
-"Dodge";2;1953;1971;"other"
-"Doi";1;1987;1987;"other"
-"Dring V";1;1959;1959;"European"
-"Drouillon";1;1951;1951;"African"
-"Duan";1;2007;2007;"other"
-"Ducousso";1;2003;2003;"European"
-"Eboh";16;1977;1989;"African"
-"Elzein";1;2008;2008;"African"
-"Fennell";1;1955;1955;"other"
-"Gams";2;1971;1984;"European"
-"Gjaerum";1;1988;1988;"European"
-"Guzman";1;1970;1970;"other"
-"Hawksworth";2;1979;2011;"European"
-"Heinemann";3;1954;1990;"European"
-"Hernandez";1;2005;2005;"other"
-"Hjortstam";2;1981;1993;"European"
-"Hughes";4;1951;1953;"European"
-"Johansen";1;1979;1979;"European"
-"Jones";1;1964;1964;"European"
-"Kirk";1;1980;1980;"European"
-"Kranz";7;1964;1970;"European"
-"Kurtzman CP";2;2001;2015;"other"
-"Leather";1;1959;1959;"European"
-"Liyanage";1;2016;2016;"other"
-"Lloyd";1;1917;1917;"other"
-"Luecking";6;1998;2014;"European"
-"Lunghini";4;1978;1982;"European"
-"Maharachchikumbura";1;2014;2014;"other"
-"Mason";1;1941;1941;"European"
-"Massee";8;1899;1910;"European"
-"Masuka";1;1999;1999;"African"
-"Meeboon";1;2013;2013;"other"
-"Mercado Sierra";1;1997;1997;"European"
-"Mibey";1;1997;1997;"African"
-"Mordue";2;1980;1980;"European"
-"Moreau C";11;1949;1959;"European"
-"Morris";1;1990;1990;"European"
-"Nag Raj";2;1993;1995;"other"
-"Nicot";1;1955;1955;"European"
-"Nielsen";1;2010;2010;NA
-"Nirenberg";1;1998;1998;"European"
-"Nyarko";1;2006;2006;"African"
-"Ou";1;1972;1972;"other"
-"Papierok";1;1982;1982;"European"
-"Petch";2;1928;1939;"other"
-"Petersen";3;1975;2008;"other"
-"Piening";1;1962;1962;"European"
-"Piepenbring";2;2000;2012;"European"
-"Pirozinski";1;1962;1962;"European"
-"Punithalingam";4;1969;1981;"European"
-"Reddy";1;2015;2015;"other"
-"Reid";2;1975;1975;"European"
-"Roberts";2;2000;2001;"European"
-"Rossi";10;1978;2013;"European"
-"Samson";10;1973;1989;"European"
-"Santesson";3;1952;1999;"European"
-"Sherwood";2;1977;1980;"European"
-"Spegazzini";1;1915;1915;"other"
-"Steyaert";3;1949;1953;"European"
-"Subramanian";1;1972;1972;"other"
-"Sydow H";4;1904;1939;"European"
-"Tam";1;2015;2015;"other"
-"Thoen";2;1989;1989;"European"
-"Tuovila";1;2011;2011;NA
-"Vezda";5;1973;1987;"European"
-"Viennot-Bourgin";9;1950;1959;"European"
-"Vincent";1;1988;1988;"other"
-"Wakefield EM";6;1912;1949;"European"
-"Walleyn";1;1994;1994;"European"
-"Waterhouse";1;1981;1981;"European"
-"Wu";1;1995;1995;"European"
-"Yen";5;1974;1978;"European"
-"Zambettakis";4;1951;1977;"European"
-"Zare";1;2001;2001;"European"
-"Zoberi";3;1972;1979;"African"
-"Almborn";1;1960;1960;"European"
-"Awasthi";1;1975;1975;"other"
-"Beenken";3;2010;2016;"European"
-"Bresadola";1;1890;1890;"European"
-"Buedel";2;1997;2000;"European"
-"Castellano";1;2000;2000;"other"
-"Costa";1;1954;1954;"European"
-"Daniels";3;2012;2017;"European"
-"des Abbayes";3;1950;1958;"European"
-"Farkas";1;1987;1987;"European"
-"Fomba";1;1984;1984;"African"
-"Fries";7;1821;1851;"European"
-"Hale";6;1971;1990;"other"
-"Heim";14;1940;1977;"European"
-"Huneck";1;1975;1975;"European"
-"Matzer";1;1996;1996;"European"
-"Merli";1;1992;1992;"European"
-"Mossebo";2;2002;2017;"African"
-"Motyka";1;1938;1938;"other"
-"Riviere";1;2007;2007;"other"
-"Rodriguez Justavino";1;2015;2015;"other"
-"Roger ML";1;1936;1936;"European"
-"Santamaria";1;2009;2009;"European"
-"Serusiaux";2;1984;2008;"European"
-"Singer";8;1944;1948;"European"
-"Staiger";1;1995;1995;"European"
-"Turnbull";1;1999;1999;"European"
-"Tuzet";2;1952;1957;"European"
-"Feuerer";1;2017;2017;"European"
-"Aveskamp";2;2009;2010;"European"
-"Barbosa";1;1965;1965;"European"
-"Valenzuela-Lopez";1;2017;2017;"European"
-"Babacauh";1;1983;1983;"African"
-"Bartoli";2;1978;1984;"European"
-"Becker";1;1995;1995;"European"
-"Bi Voko";1;2013;2013;"African"
-"Bitancourt";1;1955;1955;"other"
-"Boidin";5;1975;1997;"European"
-"Boucher";1;1918;1918;"European"
-"Calduch";1;2002;2002;"European"
-"Caneva";1;1981;1981;"European"
-"Chadoeuf";1;1993;1993;"European"
-"Ciccarone";3;1986;1988;"European"
-"Coppins";1;1995;1995;"European"
-"de Clercq";1;1983;1983;"European"
-"Delassus";1;1955;1955;"European"
-"Doebbeler";2;1998;2018;"European"
-"Dominik";1;1975;1975;"European"
-"Frisch";1;2010;2010;"European"
-"Frisvad";1;2005;2005;"European"
-"Herrera";1;2013;2013;"other"
-"Ingleby";1;1994;1994;"European"
-"Kern";1;1959;1959;"European"
-"Kone";2;2010;2013;"African"
-"Locquin";1;1954;1954;"European"
-"Luc";3;1951;1953;"European"
-"Lustrati";1;1980;1980;"European"
-"Maas Geesteranus";1;1975;1975;"European"
-"Maggi";2;1978;1994;"European"
-"Mayor";1;1951;1951;"European"
-"Melendez-Howell";1;1965;1965;NA
-"Minter";1;1980;1980;"European"
-"Mohammed";1;1994;1994;"European"
-"Paez de Badillo";1;1982;1982;"other"
-"Pagano";1;1995;1995;"European"
-"Pasqualetti";1;1999;1999;"European"
-"Perreau";1;1983;1983;"European"
-"Persiani";2;1982;1987;"European"
-"Rambelli";6;1976;1987;"European"
-"Resplandy";1;1954;1954;"European"
-"Romagnesi";1;1979;1979;"European"
-"Samuels";1;2012;2012;"other"
-"Savary";1;1988;1988;"European"
-"Sery";1;2016;2016;"African"
-"Stadler";1;2010;2010;"European"
-"Stevens";1;1983;1983;"other"
-"Stolk";1;1968;1968;"European"
-"Swinscow";2;1975;1988;"European"
-"Tibell";1;1981;1981;"European"
-"Turner BC";1;1990;1990;NA
-"van der Aa";1;1983;1983;"European"
-"Vanie-Leabo";1;2017;2017;"African"
-"Zucconi";6;1982;1993;"European"
-"Buchner";1;1912;1912;"European"
-"Corner";2;1952;1966;"European"
-"Decock";2;2002;2002;"European"
-"Farr";2;1959;2005;"other"
-"Hywel-Jones";1;1998;1998;"other"
-"Johnson TW";1;2005;2005;"other"
-"Kohlmeyer J";6;1966;1981;"other"
-"Mains";1;1949;1949;"other"
-"Raciborski";1;1900;1900;"European"
-"Raper";1;1952;1952;"other"
-"Ryvarden";1;2004;2004;"European"
-"Schreurs";1;1972;1972;"European"
-"Strong";1;1930;1930;"other"
-"Watling";1;1992;1992;"European"
-"Wickerham";1;1969;1969;"other"
-"Wolf";1;1949;1949;"European"
-"Babana";1;2006;2006;"African"
-"Chen SF";1;2014;2014;"other"
-"Coutinho";1;2017;2017;"other"
-"Dagno";1;2012;2012;"European"
-"Friberg";1;2001;2001;"European"
-"Kee";1;2017;2017;"other"
-"Kehinde";1;2013;2013;"African"
-"Kellogg";1;2004;2004;"other"
-"Khemmuk";1;2016;2016;"other"
-"Makun";1;2007;2007;"African"
-"Mayorquin";1;2016;2016;"other"
-"Vandemeulebroucke";1;1999;1999;"European"
-"Wilson";1;2000;2000;"other"
-"Cooke";1;1888;1888;"European"
-"Montegut";1;1967;1967;"European"
-"Sarr";1;2014;2014;"African"
-"Acharya";1;2017;2017;"other"
-"Adejumo";1;2005;2005;"African"
-"Adekunle";1;2005;2005;"African"
-"Adewusi";1;1993;1993;"African"
-"Afiukwa";1;2013;2013;"African"
-"Akpadja";2;2003;2005;"African"
-"Alasoadura";15;1966;1976;"African"
-"Alofe";1;1996;1996;"African"
-"Apinis";2;1966;1974;"European"
-"Ayodele";2;2007;2011;"African"
-"Bako";1;2008;2008;"African"
-"Booth";1;1961;1961;NA
-"Duthie";1;1917;1917;"African"
-"Ejale";1;1992;1992;"African"
-"Esimone";1;2007;2007;"African"
-"Farquharson";1;1916;1916;"European"
-"Fasidi";1;1995;1995;"African"
-"Fasola";1;2007;2007;"African"
-"Fassatiova";1;1967;1967;"European"
-"Garcia";1;2004;2004;"other"
-"Gbolagade";3;2005;2006;"African"
-"Guzman-Davalos";1;2008;2008;"other"
-"Gwary";1;2007;2007;"African"
-"Hambler";1;1964;1964;"European"
-"Harris";1;1960;1960;"European"
-"Hennings";7;1893;1905;"European"
-"Huang";2;1971;1973;"other"
-"Hyde";1;1999;1999;"other"
-"Ing";2;1964;1968;"European"
-"Ingold";2;1956;1959;"European"
-"Ite";1;2014;2014;"African"
-"Kamou";2;2015;2017;"African"
-"Kolawole";1;2013;2013;"African"
-"Kutama";1;2010;2010;"African"
-"Leakey";1;1964;1964;"European"
-"Ling";1;1953;1953;"European"
-"Lockwood";1;2007;2007;"other"
-"Mahoney";1;1969;1969;"other"
-"Nicholson";1;2000;2000;"European"
-"Nwokocha";1;2015;2015;"African"
-"Ogundana";2;1979;1982;"African"
-"Ogunlana";1;1975;1975;"African"
-"Okhuoya";1;2010;2010;"African"
-"Okigbo";1;2010;2010;"African"
-"Okoli";1;2007;2007;"African"
-"Omoifo";1;1996;1996;"African"
-"Oso";4;1975;1977;"African"
-"Osuji";1;2013;2013;"African"
-"Oyetayo";1;2011;2011;"African"
-"Oyetunji";1;2007;2007;"African"
-"Palisot de Beauvois";2;1804;1807;"European"
-"Rodriguez";1;2002;2002;"other"
-"Sanginga";1;1999;1999;"African"
-"Scholz";1;1981;1981;"European"
-"Smith";1;1956;1956;"European"
-"Stchigel";1;2000;2000;"European"
-"Talbot";2;1951;1956;"European"
-"Thomas JR";2;1987;1987;"European"
-"Thorold";1;1952;1952;"European"
-"Tkalcec";1;2010;2010;"European"
-"van der Westhuizen";1;1990;1990;"other"
-"West";1;1938;1938;"European"
-"Whalley";1;1988;1988;"European"
-"Ames";1;1963;1963;"other"
-"Balazuc";1;1980;1980;"European"
-"Bouhot";1;1966;1966;"European"
-"Jardine";1;1965;1965;"African"
-"Montagne";1;1845;1845;"European"
-"Segretain";1;1959;1959;"European"
-"Tehler";1;1986;1986;"European"
-"Acharius";5;1803;1814;"European"
-"Afzelius";1;1860;1860;"European"
-"Beeli";1;1938;1938;"European"
-"Busse";1;1906;1906;"European"
-"Cejp";1;1969;1969;"European"
-"Chen J";1;2007;2007;"other"
-"Clay";1;1993;1993;"other"
-"Crane";1;1981;1981;"other"
-"Dietel";1;1895;1895;"European"
-"Fisher";1;1983;1983;"European"
-"Kawakami";1;2008;2008;"other"
-"Marbach";1;2000;2000;"European"
-"Mulder";1;1982;1982;"European"
-"Mueller E";1;1962;1962;"European"
-"Mueller J";1;1893;1893;"European"
-"Petrak";3;1947;1954;"European"
-"Rao";1;1976;1976;"other"
-"Salisbury";1;1971;1971;"European"
-"Sankaran";1;1991;1991;"other"
-"Singh";2;1972;1976;"African"
-"Vainio";1;1901;1901;"European"
-"Yamamoto";1;1996;1996;"other"
-"Fernandez-Garcia";1;1990;1990;"European"
-"Holland";1;1922;1922;"European"
-"Kukwa";1;2014;2014;"European"
-"Peterson";1;2010;2010;"other"
-"Saccardo";1;1913;1913;"European"
-"van de Putte";1;2009;2009;"European"
+"";"n";"first";"last"
+"present publication";1;2019;2019
+"Jeger";1;1998;1998
+"Turner PD";1;1971;1971
+"Marley";1;2002;2002
+"Adandonon";2;2004;2014
+"Ertz";2;2008;2009
+"Roger L";2;1951;1953
+"Ellis";16;1957;1976
+"Fandohan";1;2005;2005
+"Lenne ";1;1990;1990
+"Hell";1;2009;2009
+"Paris";1;1902;1902
+"Houssou";1;2009;2009
+"Tovide";1;2018;2018
+"Carvajal-Campos";1;2017;2017
+"Hariot";2;1904;1910
+"Driver";1;2000;2000
+"Bridge";1;1997;1997
+"Shah";1;1994;1994
+"Cruz-Laufer";1;2019;2019
+"Sikirou";1;2015;2015
+"Yaninek";1;1996;1996
+"Evans";4;1974;2010
+"Hansford";13;1945;1966
+"Crous";3;2003;2016
+"Piatek";5;2014;2018
+"Meswaet";1;2019;2019
+"de Kesel";4;2002;2016
+"Eyi Ndong";1;2011;2011
+"Yorou";12;2001;2014
+"Chevaugeon";7;1950;1956
+"Boa";1;2004;2004
+"Osemwegie";7;2002;2014
+"Wendt";1;2017;2017
+"Zhao";1;2011;2011
+"Boni";1;2015;2015
+"Kreisel";2;1967;2001
+"Ge";1;2018;2018
+"Dring DM";4;1964;1980
+"Fadeyi";1;2019;2019
+"Antonin";8;1998;2013
+"Codjia";1;2014;2014
+"Badou";1;2018;2018
+"Olou";2;2019;2019
+"Christan";1;2009;2009
+"Ihayere";1;2010;2010
+"Beed";1;2011;2011
+"Maba";4;2014;2015
+"van Rooij";1;2003;2003
+"Verbeken";3;1995;2010
+"Buyck";5;1993;2008
+"de Crop";1;2016;2016
+"Denchev";3;2014;2016
+"Tchabi";3;2008;2009
+"Johnson JM";2;2013;2015
+"Mbogne";1;2015;2015
+"Oehl";2;2011;2014
+"Manier";3;1972;1974
+"Thouvenel";1;1980;1980
+"Zida";1;2008;2008
+"Richardson";1;1990;1990
+"Thomas MD";2;1985;1991
+"Crouch";1;2014;2014
+"Du";1;2005;2005
+"Damm";2;2009;2014
+"Ellison";1;2015;2015
+"Kini";1;2002;2002
+"Wulff";1;2010;2010
+"Sere";1;2007;2007
+"Ferreira";1;2018;2018
+"Klaubauf";1;2014;2014
+"Paul";1;2015;2015
+"Simmons";2;2000;2007
+"Woudenberg";2;2013;2015
+"von Arx";3;1965;1987
+"Guissou";3;2005;2015
+"Holden";1;1970;1970
+"Hama";4;2008;2012
+"Ba";4;2000;2012
+"Sanon KB";4;1997;2009
+"Rammeloo";3;1978;1993
+"Diedhiou";3;2004;2005
+"Patouillard";5;1889;1912
+"Kane";2;2013;2013
+"Sanon E";1;2014;2014
+"Gardt";1;2011;2011
+"Millogo";1;2004;2004
+"Vanky";5;1997;2011
+"Raboin";1;2007;2007
+"Couch";1;1985;1985
+"Sawadogo";1;1990;1990
+"Ouoba";1;2015;2015
+"Haerkoenen";2;1981;1993
+"Gilman";1;1969;1969
+"Aptroot";2;1995;2001
+"Lubbe";1;2004;2004
+"Shen";1;2001;2001
+"Sutton";9;1963;1980
+"Seifert";1;1985;1985
+"Brady";3;1980;1986
+"Deighton";23;1936;1990
+"Sivanesan";12;1970;1987
+"Wakefield AE";1;1990;1990
+"Penney";2;2009;2012
+"Lenne";1;1989;1989
+"Asaolu";1;2012;2012
+"Dade";1;1940;1940
+"Piening";1;1962;1962
+"Leather";1;1959;1959
+"Barreto";1;1998;1998
+"Hughes";9;1951;1953
+"Appiah";1;2003;2003
+"Waterhouse";1;1981;1981
+"Steyaert";3;1949;1953
+"Maharachchikumbura";1;2014;2014
+"Mordue";2;1980;1980
+"Dickinson";1;1968;1968
+"Batista";5;1957;1960
+"Hawksworth";2;1979;2011
+"Nag Raj";2;1993;1995
+"Viennot-Bourgin";9;1950;1959
+"Vincent";1;1988;1988
+"Dixon";2;1959;1959
+"Samson";10;1973;1989
+"Duan";1;2007;2007
+"Pirozinski";1;1962;1962
+"Lunghini";4;1978;1982
+"Mercado Sierra";1;1997;1997
+"Dring V";1;1959;1959
+"Rossi";10;1978;2013
+"Wu";1;1995;1995
+"Mason";1;1941;1941
+"Sydow H";4;1904;1939
+"Massee";8;1899;1910
+"Adeniji";1;1970;1970
+"Zambettakis";4;1951;1977
+"Braun";1;2012;2012
+"Meeboon";1;2013;2013
+"Pirozynski";1;1965;1965
+"Amano";1;1986;1986
+"Liyanage";1;2016;2016
+"Ayesu-Offei";1;1989;1989
+"Tam";1;2015;2015
+"Chen AJ";1;2016;2016
+"Fennell";1;1955;1955
+"Dennis";6;1950;1988
+"Jones";1;1964;1964
+"Ou";1;1972;1972
+"Petch";2;1928;1939
+"Papierok";1;1982;1982
+"Gams";2;1971;1984
+"Zare";1;2001;2001
+"de Hoog";1;1974;1974
+"Doi";1;1987;1987
+"Blomme";1;2013;2013
+"Elzein";1;2008;2008
+"Nirenberg";1;1998;1998
+"Spegazzini";1;1915;1915
+"Boamponsem";1;2010;2010
+"Nyarko";1;2006;2006
+"Santesson";3;1952;1999
+"Vezda";5;1973;1987
+"Luecking";6;1998;2014
+"Dodge";2;1953;1971
+"Moreau C";11;1949;1959
+"Mibey";1;1997;1997
+"Cassini";1;1966;1966
+"Kranz";7;1964;1970
+"Wakefield EM";6;1912;1949
+"Drouillon";1;1951;1951
+"Chupp";1;1954;1954
+"Kirk";1;1980;1980
+"Punithalingam";4;1969;1981
+"Ocansey";1;2019;2019
+"Arvidsson";1;1982;1982
+"Degelius";1;1974;1974
+"Cannon";1;1991;1991
+"Alcorn";1;1990;1990
+"Danquah";1;1975;1975
+"Nicot";1;1955;1955
+"Sherwood";2;1977;1980
+"Kurtzman CP";2;2001;2015
+"Lloyd";1;1917;1917
+"Subramanian";1;1972;1972
+"Pegler";9;1966;1992
+"Walleyn";1;1994;1994
+"Morris";1;1990;1990
+"Zoberi";3;1972;1979
+"Roberts";2;2000;2001
+"Heinemann";3;1954;1990
+"Guzman";1;1970;1970
+"Thoen";2;1989;1989
+"Ducousso";1;2003;2003
+"Piepenbring";2;2000;2012
+"Petersen";3;1975;2008
+"Hjortstam";2;1981;1993
+"Reid";2;1975;1975
+"Masuka";1;1999;1999
+"Cummins";7;1939;1960
+"Reddy";1;2015;2015
+"Gjaerum";1;1988;1988
+"Yen";5;1974;1978
+"Hernandez";1;2005;2005
+"Eboh";16;1977;1989
+"Ono";1;1979;1979
+"Johansen";1;1979;1979
+"Tuovila";1;2011;2011
+"Nielsen";1;2010;2010
+"Fomba";1;1984;1984
+"Farkas";1;1987;1987
+"Matzer";1;1996;1996
+"Serusiaux";2;1984;2008
+"Costa";1;1954;1954
+"Awasthi";1;1975;1975
+"des Abbayes";3;1950;1958
+"Fawole";1;2017;2017
+"Merli";1;1992;1992
+"Santamaria";1;2009;2009
+"Staiger";1;1995;1995
+"Hale";6;1971;1990
+"Huneck";1;1975;1975
+"Motyka";1;1938;1938
+"Almborn";1;1960;1960
+"Feuerer";1;2017;2017
+"Buedel";2;1997;2000
+"Roger ML";1;1936;1936
+"Rodriguez Justavino";1;2015;2015
+"Heim";14;1940;1977
+"Riviere";1;2007;2007
+"Mossebo";2;2002;2017
+"Turnbull";1;1999;1999
+"Fries";7;1821;1851
+"Castellano";1;2000;2000
+"Daniels";3;2012;2017
+"Bresadola";1;1890;1890
+"Beenken";3;2010;2016
+"Singer";8;1944;1948
+"Tuzet";2;1952;1957
+"Barbosa";1;1965;1965
+"Valenzuela-Lopez";1;2017;2017
+"Aveskamp";2;2009;2010
+"Mayor";1;1951;1951
+"Resplandy";1;1954;1954
+"Babacauh";1;1983;1983
+"Luc";3;1951;1953
+"Rambelli";6;1976;1987
+"Becker";1;1995;1995
+"Frisch";1;2010;2010
+"Dominik";1;1975;1975
+"Lustrati";1;1980;1980
+"Delassus";1;1955;1955
+"Zucconi";6;1982;1993
+"Persiani";2;1982;1987
+"Caneva";1;1981;1981
+"Ciccarone";3;1986;1988
+"Coppins";1;1995;1995
+"Maggi";2;1978;1994
+"Calduch";1;2002;2002
+"Kern";1;1959;1959
+"Kone";2;2010;2013
+"Swinscow";2;1975;1988
+"Doebbeler";2;1998;2018
+"Pagano";1;1995;1995
+"van der Aa";1;1983;1983
+"Bartoli";2;1978;1984
+"Nipa";1;2020;2020
+"Savary";1;1988;1988
+"Frisvad";1;2005;2005
+"Stolk";1;1968;1968
+"Pasqualetti";1;1999;1999
+"Samuels";1;2012;2012
+"Boucher";1;1918;1918
+"Herrera";1;2013;2013
+"Minter";1;1980;1980
+"Stevens";1;1983;1983
+"Bitancourt";1;1955;1955
+"Fulgence";1;2013;2013
+"de Clercq";1;1983;1983
+"Tibell";1;1981;1981
+"Stadler";1;2010;2010
+"Vanie-Leabo";1;2017;2017
+"Romagnesi";1;1979;1979
+"Mohammed";1;1994;1994
+"Paez de Badillo";1;1982;1982
+"Locquin";1;1954;1954
+"Chadoeuf";1;1993;1993
+"Boidin";5;1975;1997
+"Maas Geesteranus";1;1975;1975
+"Perreau";1;1983;1983
+"Sery";1;2016;2016
+"Bi Voko";1;2013;2013
+"Ingleby";1;1994;1994
+"Turner BC";1;1990;1990
+"Melendez-Howell";1;1965;1965
+"Farr";2;1959;2005
+"Strong";1;1930;1930
+"Schreurs";1;1972;1972
+"Johnson TW";1;2005;2005
+"Raper";1;1952;1952
+"Kohlmeyer J";6;1966;1981
+"Hywel-Jones";1;1998;1998
+"Mains";1;1949;1949
+"Raciborski";1;1900;1900
+"Wolf";1;1949;1949
+"Buchner";1;1912;1912
+"Wickerham";1;1969;1969
+"Corner";2;1952;1966
+"Watling";1;1992;1992
+"Ryvarden";1;2004;2004
+"Decock";2;2002;2002
+"Chen SF";1;2014;2014
+"Coutinho";1;2017;2017
+"Kee";1;2017;2017
+"Mayorquin";1;2016;2016
+"Kellogg";1;2004;2004
+"Babana";1;2006;2006
+"Dagno";1;2012;2012
+"Khemmuk";1;2016;2016
+"Vandemeulebroucke";1;1999;1999
+"Wilson";1;2000;2000
+"Friberg";1;2001;2001
+"Montegut";1;1967;1967
+"Sarr";1;2014;2014
+"Cooke";1;1888;1888
+"Farquharson";1;1916;1916
+"Ing";2;1964;1968
+"Duthie";1;1917;1917
+"Ejale";1;1992;1992
+"Kutama";1;2010;2010
+"Ogundana";2;1979;1982
+"Thorold";1;1952;1952
+"West";1;1938;1938
+"Kehinde";1;2013;2013
+"Booth";1;1961;1961
+"Omoifo";1;1996;1996
+"Alasoadura";15;1966;1976
+"Ingold";2;1956;1959
+"Fassatiova";1;1967;1967
+"Okigbo";1;2010;2010
+"Hambler";1;1964;1964
+"Adekoya";1;2017;2017
+"Thomas JR";2;1987;1987
+"Harris";1;1960;1960
+"Makun";1;2007;2007
+"Ogunlana";1;1975;1975
+"Gbolagade";3;2005;2006
+"Kolawole";1;2013;2013
+"Nwokocha";1;2015;2015
+"Smith";1;1956;1956
+"Huang";2;1971;1973
+"Apinis";2;1966;1974
+"Ite";1;2014;2014
+"Esimone";1;2007;2007
+"Bako";1;2008;2008
+"Lockwood";1;2007;2007
+"Hyde";1;1999;1999
+"Leakey";1;1964;1964
+"Alli";1;2012;2012
+"Bongomin";1;2017;2017
+"Rodriguez";1;2002;2002
+"Stchigel";1;2000;2000
+"Mahoney";1;1969;1969
+"Garcia";1;2004;2004
+"Whalley";1;1988;1988
+"Akpaja";2;2003;2005
+"Holland";1;1922;1922
+"Okhuoya";1;2010;2010
+"Oso";4;1975;1977
+"Afiukwa";1;2013;2013
+"Nicholson";1;2000;2000
+"Oyetayo";1;2011;2011
+"Adewusi";1;1993;1993
+"Fasidi";1;1995;1995
+"Tkalcec";1;2010;2010
+"Adekunle";1;2005;2005
+"Ayodele";2;2007;2011
+"Acharya";1;2017;2017
+"Guzman-Davalos";1;2008;2008
+"Talbot";2;1951;1956
+"van der Westhuizen";1;1990;1990
+"Adejumo";1;2005;2005
+"Alofe";1;1996;1996
+"Osagualekhor";1;2005;2005
+"Fasola";1;2007;2007
+"Osuji";1;2013;2013
+"Hennings";7;1893;1905
+"Palisot de Beauvois";2;1804;1807
+"Okoli";1;2007;2007
+"Gwary";1;2007;2007
+"Ling";1;1953;1953
+"Scholz";1;1981;1981
+"Sanginga";1;1999;1999
+"Oyetunji";1;2007;2007
+"Bouhot";1;1966;1966
+"Tehler";1;1986;1986
+"Balazuc";1;1980;1980
+"Segretain";1;1959;1959
+"Ames";1;1963;1963
+"Montagne";1;1845;1845
+"Jardine";1;1965;1965
+"Kawakami";1;2008;2008
+"Yamamoto";1;1996;1996
+"Petrak";3;1947;1954
+"Mueller J";1;1893;1893
+"Acharius";5;1803;1814
+"Singh";2;1972;1976
+"Crane";1;1981;1981
+"Chen J";1;2007;2007
+"Mueller E";1;1962;1962
+"Cejp";1;1969;1969
+"Marbach";1;2000;2000
+"Jonsyn";1;1988;1988
+"Clay";1;1993;1993
+"Afzelius";1;1860;1860
+"Vainio";1;1901;1901
+"Sankaran";1;1991;1991
+"Mulder";1;1982;1982
+"Salisbury";1;1971;1971
+"Fisher";1;1983;1983
+"Beeli";1;1938;1938
+"Dietel";1;1895;1895
+"Peterson";1;2010;2010
+"Saccardo";1;1913;1913
+"Rao";1;1975;1975
+"Fernandez-Garcia";1;1990;1990
+"Kukwa";1;2014;2014
+"Kamou";2;2015;2017
+"Busse";1;1906;1906
+"van de Putte";1;2009;2009

@@ -161,8 +161,8 @@ proportion_known_spp <- function(file = "Data/known_spp_numbers.csv") {
   # keep only first word
   x$taxon <- trimws(x$taxon, which = c("both"))
   options(warn = -1)
-  x$taxon <- as.vector(do.call(rbind, strsplit(as.character(x$taxon),
-                                               " "))[, 1])
+  x$taxon <- as.vector(do.call(rbind, strsplit(as.character(x$taxon), 
+    " "))[, 1])
   options(warn = 0)
   x[x$taxon == "Incertae", "taxon"] <- "Incertae sedis"
   x[x$taxon == "fungi", "taxon"] <- "Fungi and fungus-like"
@@ -681,7 +681,9 @@ prepare_authors_data <- function(data,
   }
   authors_data <- as.data.frame(authors_data)
   authors_data_extracted <- authors_data
-  
+  write.table(authors_data_extracted, file = "Output/first_author_activity.csv",
+    col.names = NA, row.names = T, sep = ";")  
+ 
   # input manually inserted data
   authors_data <- read.csv(file, h = T, sep = ";", row.names = 1)  
   authors_data_extracted$origin <- rep(NA, nrow(authors_data_extracted))
@@ -689,8 +691,6 @@ prepare_authors_data <- function(data,
     authors_data_extracted[i, "origin"] <- as.character(authors_data[i,
       "origin"])
   }
-  write.table(authors_data_extracted, file = "Output/first_author_activity.csv",
-    col.names = NA, row.names = T, sep = ";")  
   return(authors_data)  
 }
 
@@ -845,6 +845,10 @@ lichen_substrata <- function(data) {
   }
   lichen <- lichen[-grep(",", lichen)]
   lichen <- trimws(lichen, which = c("both"))
+
+  # correct values
+  lichen[lichen == "corticolous?"] <- "corticolous"
+  lichen[lichen == "on bryophytes"] <- "bryicolous"
 
   tab <- sort(table(lichen), decreasing = T)
   unk <- which(names(tab) == "unknown")
