@@ -86,10 +86,16 @@ sp_x_taxon <- proportion_known_spp()
 # output file: 'Output/sp_x_taxon.csv' 
 
 
-### comparison of species with GBIF data
-gbif_comparison(data)
-# output file: 'Output/GBIF_comparisons.pdf' 
-# output file: 'Output/GBIF_spp.csv' 
+### comparison of species with GBIF and IMI data
+db_comparison(data)
+# output file: 'Output/db_comparisons.pdf' 
+# output file: 'Output/GBIF_spp.csv'
+# output file: 'Output/IMI_spp.csv' 
+
+db_comparison_country(data)
+# output file: 'Output/db_comparisons.pdf' 
+# output file: 'Output/GBIF_comparison_country.csv'
+# output file: 'Output/IMI_comparison_country.csv'
 
 
 ### number of type specimens

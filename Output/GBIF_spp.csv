@@ -778,6 +778,7 @@
 "Lecanicillium evansii" TRUE
 "Lecanicillium psalliotae" TRUE
 "Lecanora leprosa" TRUE
+"Lecanora subfusca" TRUE
 "Lecidea rubina" TRUE
 "Leiosphaerella leonensis" TRUE
 "Lembosia anogeissi" TRUE
@@ -1204,6 +1205,7 @@
 "Pyxine richardsii" TRUE
 "Racocetra beninensis" TRUE
 "Racoleus trichophorus" TRUE
+"Ramalina farinacea" TRUE
 "Ramalina maculata" TRUE
 "Ramulispora sorghi" TRUE
 "Ramulispora sorghicola" TRUE
@@ -1302,6 +1304,7 @@
 "Stilbospora terminaliae" TRUE
 "Striaticonidium cinctum" TRUE
 "Strigula antillarum" TRUE
+"Strigula elegans" TRUE
 "Strigula nemathora" TRUE
 "Strigula orbicularis" TRUE
 "Strigula phyllogena" TRUE
@@ -1926,7 +1929,6 @@
 "Laurera purpurina" FALSE
 "Lecanicillium nodulosum" FALSE
 "Lecanora endophaea" FALSE
-"Lecanora subfusca" FALSE
 "Leccinellum corsicum" FALSE
 "Leccinellum crocipodium" FALSE
 "Leccinum rubroscabrum" FALSE
@@ -2217,7 +2219,6 @@
 "Pyxine primaria" FALSE
 "Pyxine subcinerea" FALSE
 "Radulidium subulatum" FALSE
-"Ramalina farinacea" FALSE
 "Ramalina maciformis" FALSE
 "Ramalina thraustoides" FALSE
 "Ramaria flavicolor" FALSE
@@ -2285,7 +2286,6 @@
 "Stilbodendron congoense" FALSE
 "Stilbohypoxylon quisquiliarum" FALSE
 "Stilbum villosum" FALSE
-"Strigula elegans" FALSE
 "Strobilomyces foveatus" FALSE
 "Suillellus dupainii" FALSE
 "Synchytrium aecidioides" FALSE

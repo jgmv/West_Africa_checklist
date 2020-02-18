@@ -872,40 +872,118 @@ lichen_substrata <- function(data) {
 }
 
 
-### comparison with GBIF data --------------------------------------------------
-gbif_comparison <- function(data, file = "Data/GBIF_records.csv") {
+### comparison with GBIF and IMI data ------------------------------------------
+db_comparison <- function(data, gbif_file = "Data/GBIF_records.csv",
+  imi_file = "Data/IMI_records.csv", output_spp = T, plot = T) {
   
-  gbif <- read.csv(file, h = T, sep = ";")
+  gbif <- read.csv(gbif_file, h = T, sep = ";")
+  imi  <- read.csv(imi_file, h = T, sep = ";")
+
+  # match countries with checklist
+  gbif <- gbif[gbif$country %in% unique(data$country), ]
+  gbif <- droplevels(gbif)
+  imi <- imi[imi$country %in% unique(data$country), ]
+  imi <- droplevels(imi)
+
+  # select unique species
   gbif_spp <- unique(gbif$species)
+  imi_spp  <- unique(imi$species)
   chckl_spp <- unique(data$species)
+
+  # remove genus-level identifications in IMI  
+  imi_spp <- imi_spp[sapply(strsplit(as.character(imi_spp), " "), length) > 1]
+
+  # below species identification to species in IMI and checklist
+  imi_spp <- sapply(strsplit(as.character(imi_spp), " "),
+    function(x) paste(x[1], x[2]))
+  imi_spp <- unique(imi_spp)
+  chckl_spp <- sapply(strsplit(as.character(chckl_spp), " "),
+    function(x) paste(x[1], x[2]))
+  chckl_spp <- unique(chckl_spp)
+
+  gbif_a <- sum(!(chckl_spp %in% gbif_spp))
+  gbif_b <- sum(gbif_spp %in% chckl_spp)
+  gbif_c <- sum(!(gbif_spp %in% chckl_spp))
+
+  message("GBIF:")  
+  message(paste("Species only in checklist", gbif_a))
+  message(paste("Species only in GBIF", gbif_c))
+  message(paste("Species in both", gbif_b))
+
+  imi_a <- sum(!(chckl_spp %in% imi_spp))
+  imi_b <- sum(imi_spp %in% chckl_spp)
+  imi_c <- sum(!(imi_spp %in% chckl_spp))
+
+  message("IMI:")  
+  message(paste("Species only in checklist", imi_a))
+  message(paste("Species only in IMI", imi_c))
+  message(paste("Species in both", imi_b))
   
-  a <- sum(!(chckl_spp %in% gbif_spp))
-  b <- sum(gbif_spp %in% chckl_spp)
-  c <- sum(!(gbif_spp %in% chckl_spp))
-  
-  message(paste("Species only in checklist", a))
-  message(paste("Species only in GBIF", c))
-  message(paste("Species in both", b))
-  
-  pdf("Output/GBIF_comparisons.pdf", w = 4, h = 3, pointsize = 14,
+  if(output_spp) {
+    gbif_species <- c(as.character(gbif_spp[gbif_spp %in% chckl_spp]),
+      as.character(gbif_spp[!(gbif_spp %in% chckl_spp)]))
+    gbif_species <- as.data.frame(gbif_species)
+    gbif_species$in_checklist <- c(rep(T,
+      length(gbif_spp[gbif_spp %in% chckl_spp])),
+      rep(F, length(gbif_spp[!(gbif_spp %in% chckl_spp)])))  
+    write.table(gbif_species,
+      file = "Output/GBIF_spp.csv", row.names = F, col.names = F)
+
+    imi_species <- c(as.character(imi_spp[imi_spp %in% chckl_spp]),
+      as.character(imi_spp[!(imi_spp %in% chckl_spp)]))
+    imi_species <- as.data.frame(imi_species)
+    imi_species$in_checklist <- c(rep(T,
+      length(imi_spp[imi_spp %in% chckl_spp])),
+      rep(F, length(imi_spp[!(imi_spp %in% chckl_spp)])))  
+    write.table(imi_species,
+      file = "Output/IMI_spp.csv", row.names = F, col.names = F)
+  }
+
+  x <- cbind(rbind(gbif_a, gbif_b, gbif_c), rbind(imi_a, imi_b, imi_c))
+  rownames(x) <- c("checklist", "both", "GBIF/IMI")
+  colnames(x) <- c("GBIF", "IMI")
+  if(plot) {
+    pdf("Output/db_comparisons.pdf", w = 4, h = 3, pointsize = 12,
+      useDingbats = F)
+    par(mar = c(4, 4, 1, 6), xpd = T, las = 1)
+    barplot(x, col = c(gray(0.9), 1, gray(0.7)), border = F, ylab = "Species",
+      names.arg = c("GBIF", "IMI"))
+    legend("topright", legend = c("GBIF/IMI", "both", "checklist"), border = F,
+      fill = c(gray(0.7), 1, gray(0.9)), bty = "n", y.intersp = 0.75,
+      inset = c(-0.55, 0.1))
+    dev.off()
+  }
+  return(x)
+}
+
+
+### comparison with GBIF and IMI data per country ------------------------------
+db_comparison_country <- function(data) {
+  gbif_country <- matrix(NA, ncol = 3, nrow = length(unique(data$country)),
+    dimnames = list(unique(data$country), c("checklist", "both", "GBIF/IMI")))
+  imi_country <- gbif_country
+  for(i in unique(data$country)) {
+    x <- db_comparison(data[data$country == i, ], output_spp = F, plot = F)
+    gbif_country[i, ] <- x[, "GBIF"]
+    imi_country[i, ] <- x[, "IMI"]
+  }  
+  pdf("Output/db_comparisons_country.pdf", w = 18, h = 6, pointsize = 12,
     useDingbats = F)
-  par(mar = rep(0, 4), mfrow = c(1, 2))
-  pie(c(a, b, c), col = c(gray(0.9), 1, gray(0.7)), border = F, labels = NA)
-  par(mar = rep(0, 4))
-  plot(1, 1, type = "n", axes = F)
-  #legend("left", legend = names(sp_x_ecology), bty = "n", fill = col_ecology,
-  #  border = NA, y.intersp = 0.75)
-  legend("topleft", legend = c("GBIF", "both", "checklist"), border = F,
-    fill = c(gray(0.7), 1, gray(0.9)), bty = "n", y.intersp = 0.75)
-  dev.off()  
-  gbif_species <- c(as.character(gbif_spp[gbif_spp %in% chckl_spp]),
-    as.character(gbif_spp[!(gbif_spp %in% chckl_spp)]))
-  gbif_species <- as.data.frame(gbif_species)
-  gbif_species$in_checklist <- c(rep(T,
-    length(gbif_spp[gbif_spp %in% chckl_spp])),
-    rep(F, length(gbif_spp[!(gbif_spp %in% chckl_spp)])))  
-  write.table(gbif_species,
-    file = "Output/GBIF_spp.csv", row.names = F, col.names = F)
+  par(mfrow = c(2, 1), mar = c(4, 4, 1, 1), xpd = T, las = 1)
+  barplot(t(gbif_country), col = c(gray(0.9), 1, gray(0.7)), border = F,
+    ylab = "Species", names.arg = rownames(gbif_country), beside = F,
+    main = "GBIF")
+  legend("topleft", legend = c("GBIF/IMI", "both", "checklist"), border = F,
+    fill = c(gray(0.7), 1, gray(0.9)), bty = "n", y.intersp = 0.75,
+    inset = 0.025, cex = 1.5)
+  barplot(t(imi_country), col = c(gray(0.9), 1, gray(0.7)), border = F,
+    ylab = "Species", names.arg = rownames(imi_country), beside = F,
+    main = "IMI")
+  dev.off()
+  write.table(gbif_country, file = "Output/GBIF_comparison_country.csv",
+    row.names = T, col.names = NA, sep = ";")
+  write.table(imi_country, file = "Output/IMI_comparison_country.csv",
+    row.names = T, col.names = NA, sep = ";")
 }
 
 
