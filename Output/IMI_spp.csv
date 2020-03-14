@@ -211,6 +211,7 @@
 "Thermomyces lanuginosus" TRUE
 "Thermomyces ibadanensis" TRUE
 "Aspergillus fumigatus" TRUE
+"Stereopsis hiscens" TRUE
 "Theissenia pyrenocrata" TRUE
 "Rhizoctonia solani" TRUE
 "Pseudopithomyces chartarum" TRUE
@@ -647,11 +648,14 @@
 "Phytophthora katsurae" TRUE
 "Phytophthora capsici" TRUE
 "Physoderma maydis" TRUE
+"Physarum sulphureum" TRUE
 "Perichaena vermicularis" TRUE
 "Arcyria insignis" TRUE
 "Physarum pusillum" TRUE
 "Physarum pezizoideum" TRUE
 "Physarum nutans" TRUE
+"Physarum nicaraguense" TRUE
+"Physarum flavicomum" TRUE
 "Physarum didermoides" TRUE
 "Physarum cinereum" TRUE
 "Phyllosticta zeae" TRUE
@@ -1342,6 +1346,7 @@
 "Funalia funalis" TRUE
 "Fuligo candida" TRUE
 "Fuligo septica" TRUE
+"Fuligo intermedia" TRUE
 "Fracchiaea hystricula" TRUE
 "Phellinus yucatanensis" TRUE
 "Phellinus spadiceus" TRUE
@@ -1395,6 +1400,7 @@
 "Neodeightonia subglobosa" TRUE
 "Metasphaeria leonensis" TRUE
 "Didymium squamulosum" TRUE
+"Didymium iridis" TRUE
 "Didymella lycopersici" TRUE
 "Didymella aerospora" TRUE
 "Diderma hemisphaericum" TRUE
@@ -1403,6 +1409,7 @@
 "Dictyonella scabra" TRUE
 "Dictyoasterina conopharyngiae" TRUE
 "Dictyoarthrinium rabaulense" TRUE
+"Cribraria cancellata" TRUE
 "Dictydiaethalium plumbeum" TRUE
 "Phomopsis manihot" TRUE
 "Diaporthe citri" TRUE
@@ -1889,7 +1896,6 @@
 "Thermomucor indicae-seudaticae" FALSE
 "Thermoascus crustaceus" FALSE
 "Thermoascus aurantiacus" FALSE
-"Stereopsis hiscens" FALSE
 "Thaxteriella pezizula" FALSE
 "Thamnostylum piriforme" FALSE
 "Chaetothyrium setosum" FALSE
@@ -2007,9 +2013,6 @@
 "Phytophthora infestans" FALSE
 "Phytophthora cambivora" FALSE
 "Physcia albicans" FALSE
-"Physarum sulphureum" FALSE
-"Physarum nicaraguense" FALSE
-"Physarum flavicomum" FALSE
 "Phyllosticta oryzina" FALSE
 "Phyllosticta musae" FALSE
 "Phyllosticta missionum" FALSE
@@ -2328,7 +2331,6 @@
 "Fusarium longipes" FALSE
 "Fusarium concolor" FALSE
 "Rectifusarium ventricosum" FALSE
-"Fuligo intermedia" FALSE
 "Fomitopsis lignea" FALSE
 "Royoporus spatulatus" FALSE
 "Staphylotrichum longicolle" FALSE
@@ -2355,9 +2357,7 @@
 "Dimerium minutum" FALSE
 "Dimerium leptosporum" FALSE
 "Didymosphaeria muelleri" FALSE
-"Didymium iridis" FALSE
 "Dictyosporium elegans" FALSE
-"Cribraria cancellata" FALSE
 "Dactylaria clavata" FALSE
 "Cytospora mangiferae" FALSE
 "Calonectria morganii" FALSE

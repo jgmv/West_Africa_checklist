@@ -201,6 +201,7 @@
 "Diderma effusum" TRUE
 "Diderma hemisphaericum" TRUE
 "Didymium difforme" TRUE
+"Didymium iridis" TRUE
 "Didymium minus" TRUE
 "Didymium nigripes" TRUE
 "Didymium melanospermum" TRUE
@@ -1401,6 +1402,7 @@
 "Leptosphaeria australiensis" TRUE
 "Trametes roseola" TRUE
 "Sammeyersia grandispora" TRUE
+"Stereopsis hiscens" TRUE
 "Hexagonia crinigera" TRUE
 "Geastrum saccatum" TRUE
 "Hysterium vermiforme" TRUE
@@ -1455,6 +1457,7 @@
 "Hemitrichia clavata" TRUE
 "Opegrapha nigeriensis" TRUE
 "Stemonitis herbatica" TRUE
+"Cribraria cancellata" TRUE
 "Hydropus africanus" TRUE
 "Tylopilus cellulosus" TRUE
 "Marasmius linderi" TRUE
@@ -1575,7 +1578,6 @@
 "Stemonaria longa" FALSE
 "Comatricha pulchella" FALSE
 "Didymium eximium" FALSE
-"Didymium iridis" FALSE
 "Didymium vaccinum" FALSE
 "Reticularia splendens" FALSE
 "Metatrichia vesparia" FALSE
@@ -2334,7 +2336,6 @@
 "Micropeltis depressa" FALSE
 "Funalia sanguinaria" FALSE
 "Tricholoma portentosum" FALSE
-"Stereopsis hiscens" FALSE
 "Fomes hemitephrus" FALSE
 "Uredo gladioli-buttneri" FALSE
 "Nigroporus durus" FALSE
@@ -2367,7 +2368,6 @@
 "Stereocaulon brassii" FALSE
 "Coltricia duportii" FALSE
 "Podaxis mossamedensis" FALSE
-"Cribraria cancellata" FALSE
 "Daldinia clavata" FALSE
 "Leptogium thoroldii" FALSE
 "Leptogium nigeriense" FALSE

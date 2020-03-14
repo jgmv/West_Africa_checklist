@@ -696,7 +696,9 @@ prepare_authors_data <- function(data,
 
 
 ### plot author publications ---------------------------------------------------
-plot_author_publications <- function(authors_data = authors_data) {  
+plot_author_publications <- function(authors_data = authors_data) {
+  require(Hmisc)
+
   pdf("Output/author_publications.pdf", w = 5, h = 4, pointsize = 14,
     useDingbats = F)
   par(xpd = F, mar = c(4, 4, 1, 1), tck = -0.025, mgp = c(3, 0.6, 0.6))
@@ -1028,6 +1030,12 @@ type_specimens <- function(data) {
   names(types_x_country)[1] <- "Total WA"
   write.table(types_x_country, file = "Output/types_x_country.csv",
     col.names = NA, row.names = T, sep = ";")
+
+  # accepted type names
+  x <- data[grep("^type", data$modifier), ]
+  x <- x[x$status == "accepted", ]
+  message(paste(length(unique(x$species)), "type species names accepted"))
+
   return(types_x_country) 
 }
 

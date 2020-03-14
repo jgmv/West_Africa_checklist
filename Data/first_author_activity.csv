@@ -10,7 +10,7 @@ Adewusi;1;1993;1993;African
 Afiukwa;1;2013;2013;African
 Afzelius;1;1860;1860;European
 Akpaja;2;2003;2005;African
-Alasoadura;15;1966;1976;African
+Alasoadura;7;1966;1976;African
 Alcorn;1;1990;1990;other
 Alli;1;2012;2012;African
 Almborn;1;1960;1960;European
@@ -41,6 +41,7 @@ Becker;1;1995;1995;European
 Beed;1;2011;2011;African
 Beeli;1;1938;1938;European
 Beenken;3;2010;2016;European
+Berthet;1;1966;1966;European
 Bi Voko;1;2013;2013;African
 Bitancourt;1;1955;1955;other
 Blomme;1;2013;2013;African
@@ -58,7 +59,7 @@ Bresadola;1;1890;1890;European
 Bridge;1;1997;1997;European
 Buchner;1;1912;1912;European
 Buedel;2;1997;2000;European
-Busse;1;1906;1906;European
+Busse;2;1906;1906;European
 Buyck;5;1993;2008;European
 Calduch;1;2002;2002;European
 Caneva;1;1981;1981;European
@@ -105,13 +106,13 @@ Denchev;3;2014;2016;European
 Dennis;6;1950;1988;European
 des Abbayes;3;1950;1958;European
 Dickinson;1;1968;1968;European
-Diedhiou;3;2004;2005;African
+Diedhiou;4;2004;2005;African
 Dietel;1;1895;1895;European
 Dixon;2;1959;1959;European
 Dodge;2;1953;1971;other
 Doebbeler;2;1998;2018;European
 Doi;1;1987;1987;other
-Dominik;1;1975;1975;European
+Dominik;2;1966;1975;European
 Dring DM;4;1964;1980;European
 Dring V;1;1959;1959;European
 Driver;1;2000;2000;other
@@ -133,7 +134,8 @@ Fadeyi;1;2019;2019;African
 Fandohan;1;2005;2005;African
 Farkas;1;1987;1987;European
 Farquharson;1;1916;1916;European
-Farr;2;1959;2005;other
+Farr DF;1;2005;2005;other
+Farr ML;1;1959;1959;other
 Fasidi;1;1995;1995;African
 Fasola;1;2007;2007;African
 Fassatiova;1;1967;1967;European
@@ -141,7 +143,6 @@ Fawole;1;2017;2017;African
 Fennell;1;1955;1955;other
 Fernandez-Garcia;1;1990;1990;European
 Ferreira;1;2018;2018;other
-Feuerer;1;2017;2017;European
 Fisher;1;1983;1983;European
 Fomba;1;1984;1984;African
 Friberg;1;2001;2001;European
@@ -164,7 +165,7 @@ Haerkoenen;2;1981;1993;European
 Hale;6;1971;1990;other
 Hama;4;2008;2012;African
 Hambler;1;1964;1964;European
-Hansford;13;1945;1966;European
+Hansford;12;1945;1963;European
 Hariot;2;1904;1910;European
 Harris;1;1960;1960;European
 Hawksworth;2;1979;2011;European
@@ -184,7 +185,7 @@ Huneck;1;1975;1975;European
 Hyde;1;1999;1999;other
 Hywel-Jones;1;1998;1998;other
 Ihayere;1;2010;2010;African
-Ing;2;1964;1968;European
+Ing;3;1964;1968;European
 Ingleby;1;1994;1994;European
 Ingold;2;1956;1959;European
 Ite;1;2014;2014;African
@@ -209,15 +210,15 @@ Klaubauf;1;2014;2014;European
 Kohlmeyer J;6;1966;1981;other
 Kolawole;1;2013;2013;African
 Kone;2;2010;2013;African
-Kranz;7;1964;1970;European
+Kranz;8;1964;1970;European
 Kreisel;2;1967;2001;European
 Kukwa;1;2014;2014;European
-Kurtzman CP;2;2001;2015;other
+Kurtzman CP;1;2001;2001;other
+Kurtzman RH Jr.;1;2011;2011;other
 Kutama;1;2010;2010;African
 Leakey;1;1964;1964;European
 Leather;1;1959;1959;European
-Lenne;1;1989;1989;European
-Lenne ;1;1990;1990;NA
+Lenne;2;1989;1990;other
 Ling;1;1953;1953;European
 Liyanage;1;2016;2016;other
 Lloyd;1;1917;1917;other
@@ -225,7 +226,7 @@ Lockwood;1;2007;2007;other
 Locquin;1;1954;1954;European
 Lubbe;1;2004;2004;other
 Luc;3;1951;1953;European
-Luecking;6;1998;2014;European
+Luecking;7;1998;2014;European
 Lunghini;4;1978;1982;European
 Lustrati;1;1980;1980;European
 Maas Geesteranus;1;1975;1975;European
@@ -276,12 +277,13 @@ Ocansey;1;2019;2019;African
 Oehl;2;2011;2014;European
 Ogundana;2;1979;1982;African
 Ogunlana;1;1975;1975;African
+Okafor;1;1965;1965;African
 Okhuoya;1;2010;2010;African
 Okigbo;1;2010;2010;African
 Okoli;1;2007;2007;African
 Olou;2;2019;2019;African
 Omoifo;1;1996;1996;African
-Ono;1;1979;1979;other
+Ono;2;1979;2015;other
 Osagualekhor;1;2005;2005;African
 Osemwegie;7;2002;2014;African
 Oso;4;1975;1977;African
@@ -309,9 +311,7 @@ Petrak;3;1947;1954;European
 Piatek;5;2014;2018;European
 Piening;1;1962;1962;European
 Piepenbring;2;2000;2012;European
-Pirozinski;1;1962;1962;European
-Pirozynski;1;1965;1965;other
-present publication;1;2019;2019;European
+Pirozynski;2;1962;1965;European
 Punithalingam;4;1969;1981;European
 Raboin;1;2007;2007;European
 Raciborski;1;1900;1900;European
@@ -320,6 +320,7 @@ Rammeloo;3;1978;1993;European
 Rao;1;1975;1975;other
 Raper;1;1952;1952;other
 Reddy;1;2015;2015;other
+Redhead;1;1968;1968;African
 Reid;2;1975;1975;European
 Resplandy;1;1954;1954;European
 Richardson;1;1990;1990;European
@@ -339,7 +340,7 @@ Samuels;1;2012;2012;other
 Sanginga;1;1999;1999;African
 Sankaran;1;1991;1991;other
 Sanon E;1;2014;2014;African
-Sanon KB;4;1997;2009;African
+Sanon KB;3;1997;2009;African
 Santamaria;1;2009;2009;European
 Santesson;3;1952;1999;European
 Sarr;1;2014;2014;African
@@ -357,7 +358,7 @@ Shen;1;2001;2001;other
 Sherwood;2;1977;1980;European
 Sikirou;1;2015;2015;African
 Simmons;2;2000;2007;other
-Singer;8;1944;1948;European
+Singer;7;1944;1948;European
 Singh;2;1972;1976;African
 Sivanesan;12;1970;1987;other
 Smith;1;1956;1956;European
@@ -378,8 +379,8 @@ Tam;1;2015;2015;other
 Tchabi;3;2008;2009;African
 Tehler;1;1986;1986;European
 Thoen;2;1989;1989;European
-Thomas JR;2;1987;1987;European
 Thomas MD;2;1985;1991;European
+Thomas RJ;2;1987;1987;European
 Thorold;1;1952;1952;European
 Thouvenel;1;1980;1980;African
 Tibell;1;1981;1981;European
@@ -391,18 +392,19 @@ Turner BC;1;1990;1990;other
 Turner PD;1;1971;1971;European
 Tuzet;2;1952;1957;European
 Vainio;1;1901;1901;European
-Valenzuela-Lopez;1;2017;2017;European
+Valenzuela-Lopez;1;2018;2018;European
 van de Putte;1;2009;2009;European
 van der Aa;1;1983;1983;European
 van der Westhuizen;1;1990;1990;other
 van Rooij;1;2003;2003;European
 Vandemeulebroucke;1;1999;1999;European
 Vanie-Leabo;1;2017;2017;African
-Vanky;5;1997;2011;European
+Vanky;4;1997;2011;European
 Verbeken;3;1995;2010;European
 Vezda;5;1973;1987;European
 Viennot-Bourgin;9;1950;1959;European
 Vincent;1;1988;1988;other
+Voglmayr;2;2008;2009;European
 von Arx;3;1965;1987;European
 Wakefield AE;1;1990;1990;European
 Wakefield EM;6;1912;1949;European
