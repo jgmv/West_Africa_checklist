@@ -12,7 +12,7 @@ Custom R functions called by the script `R_process.R`.
 Files with raw data necessary for the analyses.
 * `checklist.csv`: checklist data, including all fungal records for West Africa and their associated metadata.
 * `first_author_activity.csv`: data on the origin of first authors of publications on West African fungi (for Figure 3c).
-* `GBIF records.csv`: Fungal records for West Africa available in the [Global Biodiversity Information Facility (GBIF) database](https://www.gbif.org/).
+* `GBIF records.csv`: Fungal records for West Africa available in the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/) database.
 * `IMI_records.csv`: Fungal records for West Africa available in the former International Mycological Institute (IMI) fungal reference collection. 
 * `known_spp_numbers.csv`: numbers of fungal species known worldwide for systematic groups of fungi and fungus-like organisms. Data from the [Catalogue of Life](http://www.catalogueoflife.org).
 * `known_spp_numbers_selection.csv`: subset of `known_spp_numbers.csv` with a selection of systematic groups (for Table 2).
