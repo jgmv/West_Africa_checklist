@@ -18,6 +18,6 @@ Files with raw data necessary for the analyses.
 * `known_spp_numbers_selection.csv`: subset of `known_spp_numbers.csv` with a selection of systematic groups (for Table&nbsp;2).
 
 ## Usage
-Run the script `R_process.R` in R, using as working directory the same folder where all files and folders are stored. 
+Run the script `R_process.R` in R, using as working directory the same folder where all data and code files and folders are stored. 
 The following R packages need to be installed: `ggplot2`, `ggthemes`, `Hmisc`, `maps`, `RColorBrewer`, `rnaturalearth`, `sf`, `sp`, `vegan`.
 Upon running the script, all results will be stored in a folder named `Output` that is automatically created. 
