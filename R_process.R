@@ -1,16 +1,3 @@
-### Title: Mapping mycological ignorance – a first checklist and diversity
-###   patterns of fungi known for West Africa
-### Authors: Meike Piepenbring, Jose G. Maciá Vicente, Jean Evans Codija,
-###   Carola Glatthorn, Yalemwork Meswaet Kelemework, Paul Kirk, Boris Olou,
-###   Kai Reschke, Marco Schmidt, Nourou Soulemane Yorou
-###
-### The following packages are required:
-###   * Hmisc
-###   * maps
-###   * RColorBrewer
-###   * vegan
-
-
 ### load custom functions
 source("Code/functions.R")
 
