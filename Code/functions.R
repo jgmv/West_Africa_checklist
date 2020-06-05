@@ -382,7 +382,8 @@ diversity_per_country <- function(data) {
   # species per publication
   sp_x_ref <- table(data$literature_reference, data$species)
   sp_x_ref[sp_x_ref > 0] <- 1
-  write.table(sp_x_ref, file = "Output/sp_x_ref.csv", col.names = NA, sep = ";")
+  write.table(t(sp_x_ref), file = "Output/sp_x_ref.csv", col.names = NA,
+    sep = ";")
   
   # references per country
   x <- table(data$country, data$literature_reference)
