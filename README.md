@@ -1,5 +1,5 @@
 # West_Africa_checklist
-Data and code for the data analyses used in Piepenbring, Maciá-Vicente, Codjia, Glatthorn, Kirk, Meswaet, Minter, Olou, Reschke, Schmidt, Yorou (2020) Mapping mycological ignorance – checklists and diversity patterns of fungi known for West Africa. IMA Fungus (in press).
+Data and code for the data analyses used in [Piepenbring, Maciá-Vicente, Codjia, Glatthorn, Kirk, Meswaet, Minter, Olou, Reschke, Schmidt, Yorou (2020) Mapping mycological ignorance – checklists and diversity patterns of fungi known for West Africa. IMA Fungus 10:13](https://doi.org/10.1186/s43008-020-00034-y).
 
 ## Contents
 ### R_process.R
